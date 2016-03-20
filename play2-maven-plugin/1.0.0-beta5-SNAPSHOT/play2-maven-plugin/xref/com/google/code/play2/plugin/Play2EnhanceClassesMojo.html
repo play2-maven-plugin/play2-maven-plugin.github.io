@@ -98,7 +98,7 @@
 <a class="jxr_linenumber" name="L90" href="#L90">90</a>              <strong class="jxr_keyword">long</strong> lastEnhanced = 0L;
 <a class="jxr_linenumber" name="L91" href="#L91">91</a>              <strong class="jxr_keyword">if</strong> ( timestampFile.exists() )
 <a class="jxr_linenumber" name="L92" href="#L92">92</a>              {
-<a class="jxr_linenumber" name="L93" href="#L93">93</a>                  String line = readFileFirstLine( timestampFile );
+<a class="jxr_linenumber" name="L93" href="#L93">93</a>                  String line = readFileFirstLine( timestampFile, <span class="jxr_string">"ASCII"</span> );
 <a class="jxr_linenumber" name="L94" href="#L94">94</a>                  lastEnhanced = Long.parseLong( line );
 <a class="jxr_linenumber" name="L95" href="#L95">95</a>              }
 <a class="jxr_linenumber" name="L96" href="#L96">96</a>  
@@ -198,7 +198,7 @@
 <a class="jxr_linenumber" name="L190" href="#L190">190</a>                 {
 <a class="jxr_linenumber" name="L191" href="#L191">191</a>                     analysis.writeToFile( analysisCacheFile );
 <a class="jxr_linenumber" name="L192" href="#L192">192</a>                 }
-<a class="jxr_linenumber" name="L193" href="#L193">193</a>                 writeToFile( timestampFile, Long.toString( System.currentTimeMillis() ) );
+<a class="jxr_linenumber" name="L193" href="#L193">193</a>                 writeToFile( timestampFile, <span class="jxr_string">"ASCII"</span>, Long.toString( System.currentTimeMillis() ) );
 <a class="jxr_linenumber" name="L194" href="#L194">194</a>             }
 <a class="jxr_linenumber" name="L195" href="#L195">195</a>         }
 <a class="jxr_linenumber" name="L196" href="#L196">196</a>         <strong class="jxr_keyword">catch</strong> ( IOException e )

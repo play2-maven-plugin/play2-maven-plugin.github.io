@@ -132,7 +132,7 @@
 <a class="jxr_linenumber" name="L124" href="#L124">124</a>                 CoffeescriptCompilationResult result = compiler.compile( coffeeFile );
 <a class="jxr_linenumber" name="L125" href="#L125">125</a>                 String jsContent = result.getJs();
 <a class="jxr_linenumber" name="L126" href="#L126">126</a>                 createDirectory( jsFile.getParentFile(), false );
-<a class="jxr_linenumber" name="L127" href="#L127">127</a>                 writeToFile( jsFile, jsContent );
+<a class="jxr_linenumber" name="L127" href="#L127">127</a>                 writeToFile( jsFile, <span class="jxr_string">"UTF-8"</span>, jsContent );
 <a class="jxr_linenumber" name="L128" href="#L128">128</a>                 buildContext.refresh( jsFile );
 <a class="jxr_linenumber" name="L129" href="#L129">129</a>                 <strong class="jxr_keyword">try</strong>
 <a class="jxr_linenumber" name="L130" href="#L130">130</a>                 {
@@ -140,7 +140,7 @@
 <a class="jxr_linenumber" name="L132" href="#L132">132</a>                     String minifiedJsContent = jsCompiler.minify( jsContent, coffeeFile.getName() );
 <a class="jxr_linenumber" name="L133" href="#L133">133</a>                     <em class="jxr_comment">// String minifiedJsContent = JavascriptCompiler.minify( jsContent, coffeeFile.getName() );</em>
 <a class="jxr_linenumber" name="L134" href="#L134">134</a>                     createDirectory( minifiedJsFile.getParentFile(), false );
-<a class="jxr_linenumber" name="L135" href="#L135">135</a>                     writeToFile( minifiedJsFile, minifiedJsContent );
+<a class="jxr_linenumber" name="L135" href="#L135">135</a>                     writeToFile( minifiedJsFile, <span class="jxr_string">"UTF-8"</span>, minifiedJsContent );
 <a class="jxr_linenumber" name="L136" href="#L136">136</a>                     compiledFiles++;
 <a class="jxr_linenumber" name="L137" href="#L137">137</a>                     buildContext.refresh( minifiedJsFile );
 <a class="jxr_linenumber" name="L138" href="#L138">138</a>                 }

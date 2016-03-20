@@ -10,60 +10,60 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.Play2EnhanceClassesMojo
-	c345 [label=<<table title="com.google.code.play2.plugin.Play2EnhanceClassesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2EnhanceClassesMojo.html">
+	c346 [label=<<table title="com.google.code.play2.plugin.Play2EnhanceClassesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2EnhanceClassesMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2EnhanceClassesMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2EnhanceClassesMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.Play2EbeanEnhanceMojo
-	c346 [label=<<table title="com.google.code.play2.plugin.Play2EbeanEnhanceMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2EbeanEnhanceMojo.html">
+	c347 [label=<<table title="com.google.code.play2.plugin.Play2EbeanEnhanceMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2EbeanEnhanceMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2EbeanEnhanceMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2EbeanEnhanceMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo
-	c358 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2Mojo.html">
+	c359 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2Mojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2Mojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2Mojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo
-	c359 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2EnhanceMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractPlay2EnhanceMojo.html">
+	c360 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2EnhanceMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractPlay2EnhanceMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2EnhanceMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2EnhanceMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.plugin.Play2EnhanceClassesMojo extends com.google.code.play2.plugin.AbstractPlay2EnhanceMojo
-	c359:p -> c345:p [dir=back,arrowtail=empty];
+	c360:p -> c346:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.Play2EbeanEnhanceMojo extends com.google.code.play2.plugin.AbstractPlay2EnhanceMojo
-	c359:p -> c346:p [dir=back,arrowtail=empty];
+	c360:p -> c347:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractPlay2EnhanceMojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c358:p -> c359:p [dir=back,arrowtail=empty];
+	c359:p -> c360:p [dir=back,arrowtail=empty];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo NAVASSOC org.apache.maven.project.MavenProject
-	c358:p -> c366:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c359:p -> c367:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo NAVASSOC org.apache.maven.artifact.Artifact
-	c359:p -> c367:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c360:p -> c368:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo NAVASSOC com.google.code.sbt.compiler.api.AnalysisProcessor
-	c359:p -> c368:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND org.apache.maven.project.MavenProject
-	c358:p -> c366:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c360:p -> c369:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND org.apache.maven.artifact.Artifact
-	c358:p -> c367:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.project.MavenProject
-	c359:p -> c366:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND com.google.code.sbt.compiler.api.AnalysisProcessor
 	c359:p -> c368:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.artifact.Artifact
+	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND org.apache.maven.project.MavenProject
 	c359:p -> c367:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.artifact.Artifact
+	c360:p -> c368:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.project.MavenProject
+	c360:p -> c367:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND com.google.code.sbt.compiler.api.AnalysisProcessor
+	c360:p -> c369:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.apache.maven.project.MavenProject
-	c366 [label=<<table title="org.apache.maven.project.MavenProject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-project/apidocs/org/apache/maven/project/MavenProject.html">
+	c367 [label=<<table title="org.apache.maven.project.MavenProject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-project/apidocs/org/apache/maven/project/MavenProject.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MavenProject </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.project </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="http://maven.apache.org/ref/2.2.1/maven-project/apidocs/org/apache/maven/project/MavenProject.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.sbt.compiler.api.AnalysisProcessor
-	c368 [label=<<table title="com.google.code.sbt.compiler.api.AnalysisProcessor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c369 [label=<<table title="com.google.code.sbt.compiler.api.AnalysisProcessor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> AnalysisProcessor </td></tr>
@@ -71,7 +71,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.artifact.Artifact
-	c367 [label=<<table title="org.apache.maven.artifact.Artifact" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html">
+	c368 [label=<<table title="org.apache.maven.artifact.Artifact" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Artifact </td></tr>

@@ -184,12 +184,12 @@
 <a class="jxr_linenumber" name="L176" href="#L176">176</a>                 <em class="jxr_comment">// writeOutputToFiles(new File(generatedDirectory, "public"), fileName, cssContent,</em>
 <a class="jxr_linenumber" name="L177" href="#L177">177</a>                 <em class="jxr_comment">// minifiedCssContent);</em>
 <a class="jxr_linenumber" name="L178" href="#L178">178</a>                 createDirectory( cssFile.getParentFile(), false );
-<a class="jxr_linenumber" name="L179" href="#L179">179</a>                 writeToFile( cssFile, cssContent );
+<a class="jxr_linenumber" name="L179" href="#L179">179</a>                 writeToFile( cssFile, <span class="jxr_string">"UTF-8"</span>, cssContent );
 <a class="jxr_linenumber" name="L180" href="#L180">180</a>                 buildContext.refresh( cssFile );
 <a class="jxr_linenumber" name="L181" href="#L181">181</a>                 <strong class="jxr_keyword">if</strong> ( minifiedCssContent != <strong class="jxr_keyword">null</strong> )
 <a class="jxr_linenumber" name="L182" href="#L182">182</a>                 {
 <a class="jxr_linenumber" name="L183" href="#L183">183</a>                     createDirectory( minifiedCssFile.getParentFile(), false );
-<a class="jxr_linenumber" name="L184" href="#L184">184</a>                     writeToFile( minifiedCssFile, minifiedCssContent );
+<a class="jxr_linenumber" name="L184" href="#L184">184</a>                     writeToFile( minifiedCssFile, <span class="jxr_string">"UTF-8"</span>, minifiedCssContent );
 <a class="jxr_linenumber" name="L185" href="#L185">185</a>                     buildContext.refresh( minifiedCssFile );
 <a class="jxr_linenumber" name="L186" href="#L186">186</a>                 }
 <a class="jxr_linenumber" name="L187" href="#L187">187</a>                 <strong class="jxr_keyword">else</strong>

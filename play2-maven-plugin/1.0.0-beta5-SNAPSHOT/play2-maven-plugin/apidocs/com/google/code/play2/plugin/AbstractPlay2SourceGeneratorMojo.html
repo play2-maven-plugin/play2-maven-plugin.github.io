@@ -18,7 +18,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10};
+var methods = {"i0":10,"i1":10,"i2":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -94,15 +94,16 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">com.google.code.play2.plugin</div>
 <h2 title="Class AbstractPlay2SourceGeneratorMojo" class="title">Class AbstractPlay2SourceGeneratorMojo</h2>
 <map id="G" name="G">
-<area shape="rect" id="c461" href="./Play2TemplateCompileMojo.html" title="com.google.code.play2.plugin.Play2TemplateCompileMojo" alt="" coords="16,216,189,240"/>
+<area shape="rect" id="c463" href="./Play2TemplateCompileMojo.html" title="com.google.code.play2.plugin.Play2TemplateCompileMojo" alt="" coords="16,216,189,240"/>
 <area shape="rect" id="node1" href="./Play2TemplateCompileMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,204,200,252"/>
-<area shape="rect" id="c465" href="./Play2RoutesCompileMojo.html" title="com.google.code.play2.plugin.Play2RoutesCompileMojo" alt="" coords="234,216,395,240"/>
+<area shape="rect" id="c467" href="./Play2RoutesCompileMojo.html" title="com.google.code.play2.plugin.Play2RoutesCompileMojo" alt="" coords="234,216,395,240"/>
 <area shape="rect" id="node2" href="./Play2RoutesCompileMojo.html" title="&lt;TABLE&gt;" alt="" coords="224,204,405,252"/>
-<area shape="rect" id="c477" href="./AbstractPlay2SourceGeneratorMojo.html" title="com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo" alt="" coords="207,113,422,137"/>
-<area shape="rect" id="node3" href="./AbstractPlay2SourceGeneratorMojo.html" title="&lt;TABLE&gt;" alt="" coords="197,101,432,149"/>
+<area shape="rect" id="c479" href="./AbstractPlay2SourceGeneratorMojo.html" title="com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo" alt="" coords="314,113,529,137"/>
+<area shape="rect" id="node3" href="./AbstractPlay2SourceGeneratorMojo.html" title="&lt;TABLE&gt;" alt="" coords="304,101,539,149"/>
 <area shape="rect" id="node9" href="null" title="&lt;TABLE&gt;" alt="" coords="429,197,627,259"/>
-<area shape="rect" id="c480" href="./AbstractPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractPlay2Mojo" alt="" coords="254,17,375,41"/>
-<area shape="rect" id="node4" href="./AbstractPlay2Mojo.html" title="&lt;TABLE&gt;" alt="" coords="244,5,385,53"/>
+<area shape="rect" id="node11" href="null" title="&lt;TABLE&gt;" alt="" coords="651,204,843,252"/>
+<area shape="rect" id="c482" href="./AbstractPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractPlay2Mojo" alt="" coords="361,17,482,41"/>
+<area shape="rect" id="node4" href="./AbstractPlay2Mojo.html" title="&lt;TABLE&gt;" alt="" coords="351,5,492,53"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
 <div align="center"><img src="AbstractPlay2SourceGeneratorMojo.png" alt="Package class diagram package AbstractPlay2SourceGeneratorMojo" usemap="#G" border=0/></div>
@@ -174,6 +175,12 @@ extends <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.h
 <td class="colFirst"><code>protected static <a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/google/code/play2/plugin/AbstractPlay2SourceGeneratorMojo.html#defaultTargetDirectoryName">defaultTargetDirectoryName</a></span></code>&nbsp;</td>
 </tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected <a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/google/code/play2/plugin/AbstractPlay2SourceGeneratorMojo.html#sourceEncoding">sourceEncoding</a></span></code>
+<div class="block">Source files encoding.</div>
+</td>
+</tr>
 </table>
 <ul class="blockList">
 <li class="blockList"><a name="fields.inherited.from.class.com.google.code.play2.plugin.AbstractPlay2Mojo">
@@ -228,13 +235,18 @@ extends <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.h
 <td class="colFirst"><code>protected void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/google/code/play2/plugin/AbstractPlay2SourceGeneratorMojo.html#configureSourcePositionMappers--">configureSourcePositionMappers</a></span>()</code>&nbsp;</td>
 </tr>
+<tr id="i2" class="altColor">
+<td class="colFirst"><code>protected void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/google/code/play2/plugin/AbstractPlay2SourceGeneratorMojo.html#reportCompilationProblems-java.io.File-com.google.code.play2.provider.api.SourceGenerationException-">reportCompilationProblems</a></span>(<a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;source,
+                         <a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.0-beta5-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/SourceGenerationException.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">SourceGenerationException</a>&nbsp;e)</code>&nbsp;</td>
+</tr>
 </table>
 <ul class="blockList">
 <li class="blockList"><a name="methods.inherited.from.class.com.google.code.play2.plugin.AbstractPlay2Mojo">
 <!--   -->
 </a>
 <h3>Methods inherited from class&nbsp;com.google.code.play2.plugin.<a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html" title="class in com.google.code.play2.plugin">AbstractPlay2Mojo</a></h3>
-<code><a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#createBufferedFileReader-java.io.File-java.lang.String-">createBufferedFileReader</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#createBufferedFileWriter-java.io.File-java.lang.String-">createBufferedFileWriter</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#createDirectory-java.io.File-boolean-">createDirectory</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#execute--">execute</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#getAllDependencies-org.apache.maven.artifact.Artifact-">getAllDependencies</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#getProvider--">getProvider</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#getResolvedArtifact-java.lang.String-java.lang.String-java.lang.String-">getResolvedArtifact</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#internalExecute--">internalExecute</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#readFileFirstLine-java.io.File-">readFileFirstLine</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#writeToFile-java.io.File-java.lang.String-">writeToFile</a></code></li>
+<code><a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#createBufferedFileReader-java.io.File-java.lang.String-">createBufferedFileReader</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#createBufferedFileWriter-java.io.File-java.lang.String-">createBufferedFileWriter</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#createDirectory-java.io.File-boolean-">createDirectory</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#execute--">execute</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#getAllDependencies-org.apache.maven.artifact.Artifact-">getAllDependencies</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#getProvider--">getProvider</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#getResolvedArtifact-java.lang.String-java.lang.String-java.lang.String-">getResolvedArtifact</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#internalExecute--">internalExecute</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#readFileFirstLine-java.io.File-java.lang.String-">readFileFirstLine</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#writeToFile-java.io.File-java.lang.String-java.lang.String-">writeToFile</a></code></li>
 </ul>
 <ul class="blockList">
 <li class="blockList"><a name="methods.inherited.from.class.org.apache.maven.plugin.AbstractMojo">
@@ -264,6 +276,24 @@ extends <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.h
 <!--   -->
 </a>
 <h3>Field Detail</h3>
+<a name="sourceEncoding">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>sourceEncoding</h4>
+<pre>@Parameter(property="project.build.sourceEncoding")
+protected&nbsp;<a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> sourceEncoding</pre>
+<div class="block">Source files encoding.
+ <br>
+ <br>
+ If not specified, the encoding value will be the value of the <code>file.encoding</code> system property.</div>
+<dl>
+<dt><span class="simpleTagLabel">Since:</span></dt>
+<dd>1.0.0</dd>
+</dl>
+</li>
+</ul>
 <a name="buildContext">
 <!--   -->
 </a>
@@ -325,10 +355,20 @@ protected&nbsp;org.sonatype.plexus.build.incremental.BuildContext buildContext</
 <a name="configureSourcePositionMappers--">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>configureSourcePositionMappers</h4>
 <pre>protected&nbsp;void&nbsp;configureSourcePositionMappers()</pre>
+</li>
+</ul>
+<a name="reportCompilationProblems-java.io.File-com.google.code.play2.provider.api.SourceGenerationException-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>reportCompilationProblems</h4>
+<pre>protected&nbsp;void&nbsp;reportCompilationProblems(<a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;source,
+                                         <a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.0-beta5-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/SourceGenerationException.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">SourceGenerationException</a>&nbsp;e)</pre>
 </li>
 </ul>
 </li>

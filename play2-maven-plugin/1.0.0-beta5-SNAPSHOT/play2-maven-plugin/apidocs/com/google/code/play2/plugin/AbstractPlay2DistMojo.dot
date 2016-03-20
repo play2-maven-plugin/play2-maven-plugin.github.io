@@ -10,41 +10,41 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.Play2DistMojo
-	c319 [label=<<table title="com.google.code.play2.plugin.Play2DistMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2DistMojo.html">
+	c320 [label=<<table title="com.google.code.play2.plugin.Play2DistMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2DistMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2DistMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2DistMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.Play2DistExplodedMojo
-	c320 [label=<<table title="com.google.code.play2.plugin.Play2DistExplodedMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2DistExplodedMojo.html">
+	c321 [label=<<table title="com.google.code.play2.plugin.Play2DistExplodedMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2DistExplodedMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2DistExplodedMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2DistExplodedMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2DistMojo
-	c332 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2DistMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractPlay2DistMojo.html">
+	c333 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2DistMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractPlay2DistMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2DistMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2DistMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractArchivingMojo
-	c335 [label=<<table title="com.google.code.play2.plugin.AbstractArchivingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractArchivingMojo.html">
+	c336 [label=<<table title="com.google.code.play2.plugin.AbstractArchivingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractArchivingMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractArchivingMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractArchivingMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.plugin.Play2DistMojo extends com.google.code.play2.plugin.AbstractPlay2DistMojo
-	c332:p -> c319:p [dir=back,arrowtail=empty];
+	c333:p -> c320:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.Play2DistExplodedMojo extends com.google.code.play2.plugin.AbstractPlay2DistMojo
-	c332:p -> c320:p [dir=back,arrowtail=empty];
+	c333:p -> c321:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractPlay2DistMojo extends com.google.code.play2.plugin.AbstractArchivingMojo
-	c335:p -> c332:p [dir=back,arrowtail=empty];
+	c336:p -> c333:p [dir=back,arrowtail=empty];
 	// com.google.code.play2.plugin.AbstractPlay2DistMojo DEPEND org.codehaus.plexus.archiver.zip.ZipArchiver
-	c332:p -> c338:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c333:p -> c339:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractArchivingMojo DEPEND org.codehaus.plexus.archiver.zip.ZipArchiver
-	c335:p -> c338:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c336:p -> c339:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.codehaus.plexus.archiver.zip.ZipArchiver
-	c338 [label=<<table title="org.codehaus.plexus.archiver.zip.ZipArchiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://play2-maven-plugin.github.io/external-apidocs/org/codehaus/plexus/plexus-archiver/3.0/org/codehaus/plexus/archiver/zip/ZipArchiver.html">
+	c339 [label=<<table title="org.codehaus.plexus.archiver.zip.ZipArchiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://play2-maven-plugin.github.io/external-apidocs/org/codehaus/plexus/plexus-archiver/3.0/org/codehaus/plexus/archiver/zip/ZipArchiver.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ZipArchiver </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.codehaus.plexus.archiver.zip </font></td></tr>
