@@ -10,28 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.Play2TemplateCompileMojo
-	c847 [label=<<table title="com.google.code.play2.plugin.Play2TemplateCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play2TemplateCompileMojo.html">
+	c901 [label=<<table title="com.google.code.play2.plugin.Play2TemplateCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play2TemplateCompileMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2TemplateCompileMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2TemplateCompileMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
-	// com.google.code.play2.plugin.AbstractPlay2Mojo
-	c865 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2Mojo.html">
+	// com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo
+	c917 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2SourceGeneratorMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2Mojo </font></td></tr>
+<tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2SourceGeneratorMojo </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="./AbstractPlay2Mojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
-	//com.google.code.play2.plugin.Play2TemplateCompileMojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c865:p -> c847:p [dir=back,arrowtail=empty];
-	// com.google.code.play2.plugin.Play2TemplateCompileMojo NAVASSOC org.sonatype.plexus.build.incremental.BuildContext
-	c847:p -> c873:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// org.sonatype.plexus.build.incremental.BuildContext
-	c873 [label=<<table title="org.sonatype.plexus.build.incremental.BuildContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> BuildContext </td></tr>
-<tr><td align="center" balign="center"><font point-size="7.0"> org.sonatype.plexus.build.incremental </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="./AbstractPlay2SourceGeneratorMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
+	//com.google.code.play2.plugin.Play2TemplateCompileMojo extends com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo
+	c917:p -> c901:p [dir=back,arrowtail=empty];
 }
 

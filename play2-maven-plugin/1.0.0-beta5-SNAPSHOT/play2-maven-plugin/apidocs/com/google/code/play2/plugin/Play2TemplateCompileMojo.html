@@ -74,7 +74,7 @@ var activeTableTab = "activeTableTab";
 <ul class="subNavList">
 <li>Summary:&nbsp;</li>
 <li>Nested&nbsp;|&nbsp;</li>
-<li><a href="#fields.inherited.from.class.com.google.code.play2.plugin.AbstractPlay2Mojo">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#fields.inherited.from.class.com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo">Field</a>&nbsp;|&nbsp;</li>
 <li><a href="#constructor.summary">Constr</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.summary">Method</a></li>
 </ul>
@@ -94,11 +94,10 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">com.google.code.play2.plugin</div>
 <h2 title="Class Play2TemplateCompileMojo" class="title">Class Play2TemplateCompileMojo</h2>
 <map id="G" name="G">
-<area shape="rect" id="c847" href="./Play2TemplateCompileMojo.html" title="com.google.code.play2.plugin.Play2TemplateCompileMojo" alt="" coords="17,113,191,137"/>
-<area shape="rect" id="node1" href="./Play2TemplateCompileMojo.html" title="&lt;TABLE&gt;" alt="" coords="7,101,201,149"/>
-<area shape="rect" id="node5" href="null" title="&lt;TABLE&gt;" alt="" coords="5,197,203,259"/>
-<area shape="rect" id="c865" href="./AbstractPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractPlay2Mojo" alt="" coords="43,17,165,41"/>
-<area shape="rect" id="node2" href="./AbstractPlay2Mojo.html" title="&lt;TABLE&gt;" alt="" coords="33,5,175,53"/>
+<area shape="rect" id="c901" href="./Play2TemplateCompileMojo.html" title="com.google.code.play2.plugin.Play2TemplateCompileMojo" alt="" coords="36,113,209,137"/>
+<area shape="rect" id="node1" href="./Play2TemplateCompileMojo.html" title="&lt;TABLE&gt;" alt="" coords="25,101,220,149"/>
+<area shape="rect" id="c917" href="./AbstractPlay2SourceGeneratorMojo.html" title="com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo" alt="" coords="15,17,230,41"/>
+<area shape="rect" id="node2" href="./AbstractPlay2SourceGeneratorMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,5,240,53"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
 <div align="center"><img src="Play2TemplateCompileMojo.png" alt="Package class diagram package Play2TemplateCompileMojo" usemap="#G" border=0/></div>
@@ -114,7 +113,12 @@ var activeTableTab = "activeTableTab";
 <li><a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html" title="class in com.google.code.play2.plugin">com.google.code.play2.plugin.AbstractPlay2Mojo</a></li>
 <li>
 <ul class="inheritance">
+<li><a href="../../../../../com/google/code/play2/plugin/AbstractPlay2SourceGeneratorMojo.html" title="class in com.google.code.play2.plugin">com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo</a></li>
+<li>
+<ul class="inheritance">
 <li>com.google.code.play2.plugin.Play2TemplateCompileMojo</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -134,7 +138,7 @@ var activeTableTab = "activeTableTab";
 <pre>@Mojo(name="template-compile",
       defaultPhase=GENERATE_SOURCES)
 public class <span class="typeNameLabel">Play2TemplateCompileMojo</span>
-extends <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html" title="class in com.google.code.play2.plugin">AbstractPlay2Mojo</a></pre>
+extends <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2SourceGeneratorMojo.html" title="class in com.google.code.play2.plugin">AbstractPlay2SourceGeneratorMojo</a></pre>
 <div class="block">Compile Scala templates</div>
 <dl>
 <dt><span class="simpleTagLabel">Since:</span></dt>
@@ -155,11 +159,18 @@ extends <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.h
 </a>
 <h3>Field Summary</h3>
 <ul class="blockList">
+<li class="blockList"><a name="fields.inherited.from.class.com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo">
+<!--   -->
+</a>
+<h3>Fields inherited from class&nbsp;com.google.code.play2.plugin.<a href="../../../../../com/google/code/play2/plugin/AbstractPlay2SourceGeneratorMojo.html" title="class in com.google.code.play2.plugin">AbstractPlay2SourceGeneratorMojo</a></h3>
+<code><a href="../../../../../com/google/code/play2/plugin/AbstractPlay2SourceGeneratorMojo.html#buildContext">buildContext</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2SourceGeneratorMojo.html#defaultTargetDirectoryName">defaultTargetDirectoryName</a></code></li>
+</ul>
+<ul class="blockList">
 <li class="blockList"><a name="fields.inherited.from.class.com.google.code.play2.plugin.AbstractPlay2Mojo">
 <!--   -->
 </a>
 <h3>Fields inherited from class&nbsp;com.google.code.play2.plugin.<a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html" title="class in com.google.code.play2.plugin">AbstractPlay2Mojo</a></h3>
-<code><a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#factory">factory</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#localRepo">localRepo</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#playVersion">playVersion</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#project">project</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#projectBuilder">projectBuilder</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#remoteRepos">remoteRepos</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#resolver">resolver</a></code></li>
+<code><a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#factory">factory</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#localRepo">localRepo</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#playVersion">playVersion</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#pluginGroupId">pluginGroupId</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#pluginVersion">pluginVersion</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#project">project</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#projectBuilder">projectBuilder</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#remoteRepos">remoteRepos</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.html#resolver">resolver</a></code></li>
 </ul>
 <ul class="blockList">
 <li class="blockList"><a name="fields.inherited.from.class.org.apache.maven.plugin.Mojo">
@@ -204,6 +215,13 @@ extends <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.h
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/google/code/play2/plugin/Play2TemplateCompileMojo.html#internalExecute--">internalExecute</a></span>()</code>&nbsp;</td>
 </tr>
 </table>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;com.google.code.play2.plugin.<a href="../../../../../com/google/code/play2/plugin/AbstractPlay2SourceGeneratorMojo.html" title="class in com.google.code.play2.plugin">AbstractPlay2SourceGeneratorMojo</a></h3>
+<code><a href="../../../../../com/google/code/play2/plugin/AbstractPlay2SourceGeneratorMojo.html#addSourceRoot-java.io.File-">addSourceRoot</a>, <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2SourceGeneratorMojo.html#configureSourcePositionMappers--">configureSourcePositionMappers</a></code></li>
+</ul>
 <ul class="blockList">
 <li class="blockList"><a name="methods.inherited.from.class.com.google.code.play2.plugin.AbstractPlay2Mojo">
 <!--   -->
@@ -329,7 +347,7 @@ extends <a href="../../../../../com/google/code/play2/plugin/AbstractPlay2Mojo.h
 <ul class="subNavList">
 <li>Summary:&nbsp;</li>
 <li>Nested&nbsp;|&nbsp;</li>
-<li><a href="#fields.inherited.from.class.com.google.code.play2.plugin.AbstractPlay2Mojo">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#fields.inherited.from.class.com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo">Field</a>&nbsp;|&nbsp;</li>
 <li><a href="#constructor.summary">Constr</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.summary">Method</a></li>
 </ul>
