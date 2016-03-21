@@ -225,8 +225,8 @@
 <a class="jxr_linenumber" name="L217" href="#L217">217</a>             newAllDependencies.writeToFile( lessCacheFile );
 <a class="jxr_linenumber" name="L218" href="#L218">218</a>         }
 <a class="jxr_linenumber" name="L219" href="#L219">219</a> 
-<a class="jxr_linenumber" name="L220" href="#L220">220</a>         getLog().info( String.format( <span class="jxr_string">"%d assets processed, %d compiled"</span>, Integer.valueOf( fileNames.length ),
-<a class="jxr_linenumber" name="L221" href="#L221">221</a>                                       Integer.valueOf( compiledFiles ) ) );
+<a class="jxr_linenumber" name="L220" href="#L220">220</a>         getLog().info( String.format( <span class="jxr_string">"%d %s processed, %d compiled"</span>, Integer.valueOf( fileNames.length ),
+<a class="jxr_linenumber" name="L221" href="#L221">221</a>                                       fileNames.length &gt; 1 ? <span class="jxr_string">"assets"</span> : <span class="jxr_string">"asset"</span>, Integer.valueOf( compiledFiles ) ) );
 <a class="jxr_linenumber" name="L222" href="#L222">222</a>     }
 <a class="jxr_linenumber" name="L223" href="#L223">223</a> 
 <a class="jxr_linenumber" name="L224" href="#L224">224</a> }

@@ -11,5 +11,6 @@
 <area shape="rect" id="node9" href="http://maven.apache.org/ref/2.2.1/maven-project/apidocs/org/apache/maven/project/MavenProject.html" title="&lt;TABLE&gt;" alt="" coords="5,204,155,252"/>
 <area shape="rect" id="c368" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html" title="org.apache.maven.artifact.Artifact" alt="" coords="813,203,942,253"/>
 <area shape="rect" id="node11" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html" title="&lt;TABLE&gt;" alt="" coords="803,197,952,259"/>
-<area shape="rect" id="node13" href="null" title="&lt;TABLE&gt;" alt="" coords="600,197,779,259"/>
+<area shape="rect" id="c369" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-beta8/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/AnalysisProcessor.html" title="com.google.code.sbt.compiler.api.AnalysisProcessor" alt="" coords="610,203,769,253"/>
+<area shape="rect" id="node13" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-beta8/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/AnalysisProcessor.html" title="&lt;TABLE&gt;" alt="" coords="600,197,779,259"/>
 </map>

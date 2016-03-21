@@ -196,8 +196,8 @@
 <a class="jxr_linenumber" name="L188" href="#L188">188</a> 
 <a class="jxr_linenumber" name="L189" href="#L189">189</a>         <strong class="jxr_keyword">if</strong> ( processedFiles &gt; 0 )
 <a class="jxr_linenumber" name="L190" href="#L190">190</a>         {
-<a class="jxr_linenumber" name="L191" href="#L191">191</a>             getLog().info( String.format( <span class="jxr_string">"%d Ebean classes processed, %d enhanced"</span>, Integer.valueOf( processedFiles ),
-<a class="jxr_linenumber" name="L192" href="#L192">192</a>                                           Integer.valueOf( enhancedFiles ) ) );
+<a class="jxr_linenumber" name="L191" href="#L191">191</a>             getLog().info( String.format( <span class="jxr_string">"%d Ebean %s processed, %d enhanced"</span>, Integer.valueOf( processedFiles ),
+<a class="jxr_linenumber" name="L192" href="#L192">192</a>                                           processedFiles &gt; 1 ? <span class="jxr_string">"classes"</span> : <span class="jxr_string">"class"</span>, Integer.valueOf( enhancedFiles ) ) );
 <a class="jxr_linenumber" name="L193" href="#L193">193</a>         }
 <a class="jxr_linenumber" name="L194" href="#L194">194</a>         <strong class="jxr_keyword">else</strong>
 <a class="jxr_linenumber" name="L195" href="#L195">195</a>         {
