@@ -49,12 +49,12 @@ digraph G {
 	c359:p -> c368:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND org.apache.maven.project.MavenProject
 	c359:p -> c367:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND com.google.code.sbt.compiler.api.AnalysisProcessor
+	c360:p -> c369:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.artifact.Artifact
 	c360:p -> c368:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.project.MavenProject
 	c360:p -> c367:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND com.google.code.sbt.compiler.api.AnalysisProcessor
-	c360:p -> c369:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.apache.maven.project.MavenProject
 	c367 [label=<<table title="org.apache.maven.project.MavenProject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-project/apidocs/org/apache/maven/project/MavenProject.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
