@@ -225,13 +225,16 @@
             <div class="section">
 <h2><a name="Eclipse_IDE_integration"></a>Eclipse IDE integration</h2>
 <p>Use <a class="externalLink" href="http://scala-ide.org/download/sdk.html">Scala IDE bundle</a> or <a class="externalLink" href="http://scala-ide.org/download/current.html">add Scala IDE plugin</a> to your existing Eclipse installation.</p>
-<p>There is one problem with importing Play! project to Eclipse (as Maven project).</p>
-<p>M2Eclipse does not treat such project as Java project, because <tt>maven-compiler-plugin</tt>&#x2019;s <tt>compile</tt> and <tt>testCompile</tt> mojos are not part of <tt>play2</tt> packaging lifecycle (<tt>sbt-compiler-maven-plugin</tt>&#x2019;s <tt>compile</tt> and <tt>testCompile</tt> mojos are used instead).</p>
-<p>A workaround is required (or a proper Eclipse plugin, which will be implemented later).</p>
-<p>Import steps:</p>
+<p>Scala IDE is Eclipse bundle with Scala and Maven support out of the box.</p>
 <div class="section">
-<h3><a name="a1._A_workaround"></a>1. A workaround</h3>
-<p>Add this code snipped to project&#x2019;s <tt>pom.xml</tt> file:</p>
+<h3><a name="a1._Preparation"></a>1. Preparation</h3>
+<p>Play! Framework project must be a Scala project (must have Scala nature) in Eclipse. For Eclipse project to be Scala project it has to be Java project first.</p>
+<p>M2Eclipse (Eclipse plugin for Maven integration) analyzes Maven project and treats it as a Java project only if it has <tt>maven-compiler-plugin</tt> with <tt>default-compile</tt> and <tt>default-testCompile</tt> executions in it&#x2019;s build.</p>
+<p>This condition is met for <tt>jar</tt>, <tt>war</tt>, <tt>ejb</tt> and some other packagings, but not for <tt>play2</tt> because <tt>play2</tt> projects use <tt>sbt-compiler-maven-plugin</tt> instead of <tt>maven-compiler-plugin</tt>.</p>
+<p>In order to make M2Eclipse properly import and configure <tt>play2</tt> project, fake <tt>maven-compiler-plugin</tt> plugin configuration has to be added. It should be done in separate profile, used only inside Eclipse.</p>
+<p>There is one more problem with Eclipse integration. Using the same classes location (<tt>target/classes</tt>) by Eclipse and Maven (or SBT) from command line at the same time leads to problems. Scala IDE uses <tt>.cache-main</tt> file for storing incremental compilation informations. Maven uses <tt>target/cache/compile</tt> file. Using different control files by different Scala compilers for the same source and target locations simultaniously or alternately causes problems. The solution is to define different output directory for Eclipse.</p>
+<p>Additionally, <tt>source</tt> and <tt>target</tt> compilation parameters in <tt>maven-compiler-plugin</tt> are used to set source and generated .class files compatibility levels in <tt>Java Compiler</tt> page of project properties.</p>
+<p>Necessary <tt>pom.xml</tt> code snipped with <tt>eclipse</tt> profile is presented below:</p>
 
 <div class="source">
 <div class="source"><pre class="prettyprint">    &lt;profiles&gt;
@@ -239,6 +242,8 @@
             &lt;id&gt;eclipse&lt;/id&gt;
 
             &lt;build&gt;
+                &lt;directory&gt;${project.basedir}/target-eclipse&lt;/directory&gt;
+
                 &lt;plugins&gt;
                     &lt;plugin&gt;
                         &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
@@ -246,6 +251,8 @@
                         &lt;configuration&gt;
                             &lt;skipMain&gt;true&lt;/skipMain&gt;
                             &lt;skip&gt;true&lt;/skip&gt;
+                            &lt;source&gt;1.6&lt;/source&gt; &lt;!-- 1.8 for Play! 2.5+ --&gt;
+                            &lt;target&gt;1.6&lt;/target&gt; &lt;!-- 1.8 for Play! 2.5+ --&gt;
                         &lt;/configuration&gt;
                         &lt;executions&gt;
                             &lt;execution&gt;
@@ -263,8 +270,7 @@
         &lt;/profile&gt;
     &lt;/profiles&gt;
 </pre></div></div>
-<p>This adds <tt>eclipse</tt> profile with <tt>maven-compiler-plugin</tt>&#x2019;s <tt>compile</tt> and <tt>testCompile</tt> mojos.</p>
-<p>This profile is intended to be used exclusively by Eclipse. Don&#x2019;t use it when building with Maven from command line (it would unnecessarily slow down the build). Inside Eclipse it will do nothing during compilation, but this is enough to properly recognize imported project as Java project.</p></div>
+<p>This profile is intended to be used exclusively by Eclipse. Don&#x2019;t use it when building with Maven from command line.</p></div>
 <div class="section">
 <h3><a name="a2._Import_the_project_as_Maven_project."></a>2. Import the project as Maven project.</h3>
 <p><img src="images/m2eclipse/imp0.PNG" alt="imp0.png" /></p>
@@ -281,7 +287,7 @@
 <p>After adding Scala Nature, Eclipse recompiles the project.</p>
 <p><img src="images/m2eclipse/imp5.PNG" alt="imp5.png" /></p>
 <p>There are no errors in the project anymore.</p>
-<p>On the above picture you can see routes and templates files generated by the plugin in <tt>target/src_managed/main</tt> directory.</p></div></div>
+<p>On the above picture you can see routes and templates files generated by the plugin in <tt>target-eclipse/routes/main</tt> and <tt>target-eclipse/twirl/main</tt> directories.</p></div></div>
                   </div>
             </div>
           </div>
