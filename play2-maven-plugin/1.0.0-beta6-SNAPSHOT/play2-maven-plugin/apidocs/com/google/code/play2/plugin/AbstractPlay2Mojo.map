@@ -1,0 +1,33 @@
+<map id="G" name="G">
+<area shape="rect" id="c384" href="./AbstractPlay2StopServerMojo.html" title="com.google.code.play2.plugin.AbstractPlay2StopServerMojo" alt="" coords="16,216,197,240"/>
+<area shape="rect" id="node1" href="./AbstractPlay2StopServerMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,204,208,252"/>
+<area shape="rect" id="c386" href="./AbstractPlay2SourceGeneratorMojo.html" title="com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo" alt="" coords="242,216,457,240"/>
+<area shape="rect" id="node2" href="./AbstractPlay2SourceGeneratorMojo.html" title="&lt;TABLE&gt;" alt="" coords="232,204,467,252"/>
+<area shape="rect" id="c389" href="./AbstractPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractPlay2Mojo" alt="" coords="1746,113,1867,137"/>
+<area shape="rect" id="node3" href="./AbstractPlay2Mojo.html" title="&lt;TABLE&gt;" alt="" coords="1736,101,1877,149"/>
+<area shape="rect" id="c390" href="./AbstractPlay2EnhanceMojo.html" title="com.google.code.play2.plugin.AbstractPlay2EnhanceMojo" alt="" coords="1527,216,1697,240"/>
+<area shape="rect" id="node4" href="./AbstractPlay2EnhanceMojo.html" title="&lt;TABLE&gt;" alt="" coords="1517,204,1707,252"/>
+<area shape="rect" id="c392" href="./AbstractPlay2AssetsCompileMojo.html" title="com.google.code.play2.plugin.AbstractPlay2AssetsCompileMojo" alt="" coords="797,216,1001,240"/>
+<area shape="rect" id="node5" href="./AbstractPlay2AssetsCompileMojo.html" title="&lt;TABLE&gt;" alt="" coords="787,204,1011,252"/>
+<area shape="rect" id="c393" href="./AbstractDependencyProcessingPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractDependencyProcessingPlay2Mojo" alt="" coords="501,216,753,240"/>
+<area shape="rect" id="node6" href="./AbstractDependencyProcessingPlay2Mojo.html" title="&lt;TABLE&gt;" alt="" coords="491,204,763,252"/>
+<area shape="rect" id="c394" href="./AbstractArchivingMojo.html" title="com.google.code.play2.plugin.AbstractArchivingMojo" alt="" coords="1096,216,1237,240"/>
+<area shape="rect" id="node7" href="./AbstractArchivingMojo.html" title="&lt;TABLE&gt;" alt="" coords="1085,204,1248,252"/>
+<area shape="rect" id="c395" href="./AbstractAntJavaBasedPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo" alt="" coords="1283,216,1483,240"/>
+<area shape="rect" id="node8" href="./AbstractAntJavaBasedPlay2Mojo.html" title="&lt;TABLE&gt;" alt="" coords="1272,204,1493,252"/>
+<area shape="rect" id="c398" href="http://maven.apache.org/ref/2.2.1/maven-project/apidocs/org/apache/maven/project/MavenProject.html" title="org.apache.maven.project.MavenProject" alt="" coords="2719,319,2847,355"/>
+<area shape="rect" id="node19" href="http://maven.apache.org/ref/2.2.1/maven-project/apidocs/org/apache/maven/project/MavenProject.html" title="&lt;TABLE&gt;" alt="" coords="2708,313,2857,361"/>
+<area shape="rect" id="c399" href="http://maven.apache.org/ref/2.2.1/maven-project/apidocs/org/apache/maven/project/MavenProjectBuilder.html" title="org.apache.maven.project.MavenProjectBuilder" alt="" coords="1741,203,1872,253"/>
+<area shape="rect" id="node21" href="http://maven.apache.org/ref/2.2.1/maven-project/apidocs/org/apache/maven/project/MavenProjectBuilder.html" title="&lt;TABLE&gt;" alt="" coords="1731,197,1883,259"/>
+<area shape="rect" id="c400" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/factory/ArtifactFactory.html" title="org.apache.maven.artifact.factory.ArtifactFactory" alt="" coords="1917,203,2081,253"/>
+<area shape="rect" id="node23" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/factory/ArtifactFactory.html" title="&lt;TABLE&gt;" alt="" coords="1907,197,2091,259"/>
+<area shape="rect" id="c401" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/resolver/ArtifactResolver.html" title="org.apache.maven.artifact.resolver.ArtifactResolver" alt="" coords="2125,203,2291,253"/>
+<area shape="rect" id="node25" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/resolver/ArtifactResolver.html" title="&lt;TABLE&gt;" alt="" coords="2115,197,2301,259"/>
+<area shape="rect" id="c402" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/repository/ArtifactRepository.html" title="org.apache.maven.artifact.repository.ArtifactRepository" alt="" coords="2335,203,2510,253"/>
+<area shape="rect" id="node27" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/repository/ArtifactRepository.html" title="&lt;TABLE&gt;" alt="" coords="2325,197,2520,259"/>
+<area shape="rect" id="node30" href="null" title="&lt;TABLE&gt;" alt="" coords="2544,197,2733,259"/>
+<area shape="rect" id="c404" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html" title="org.apache.maven.artifact.Artifact" alt="" coords="1265,312,1394,363"/>
+<area shape="rect" id="node32" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html" title="&lt;TABLE&gt;" alt="" coords="1255,307,1404,368"/>
+<area shape="rect" id="c397" href="http://maven.apache.org/ref/2.2.1/maven-plugin-api/apidocs/org/apache/maven/plugin/AbstractMojo.html" title="org.apache.maven.plugin.AbstractMojo" alt="" coords="1745,11,1869,47"/>
+<area shape="rect" id="node11" href="http://maven.apache.org/ref/2.2.1/maven-plugin-api/apidocs/org/apache/maven/plugin/AbstractMojo.html" title="&lt;TABLE&gt;" alt="" coords="1735,5,1879,53"/>
+</map>
