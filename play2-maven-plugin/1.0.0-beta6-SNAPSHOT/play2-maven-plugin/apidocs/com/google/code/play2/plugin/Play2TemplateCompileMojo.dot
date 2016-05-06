@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.Play2TemplateCompileMojo
-	c904 [label=<<table title="com.google.code.play2.plugin.Play2TemplateCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play2TemplateCompileMojo.html">
+	c902 [label=<<table title="com.google.code.play2.plugin.Play2TemplateCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play2TemplateCompileMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2TemplateCompileMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2TemplateCompileMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo
-	c920 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2SourceGeneratorMojo.html">
+	c918 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2SourceGeneratorMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2SourceGeneratorMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2SourceGeneratorMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.plugin.Play2TemplateCompileMojo extends com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo
-	c920:p -> c904:p [dir=back,arrowtail=empty];
+	c918:p -> c902:p [dir=back,arrowtail=empty];
 }
 

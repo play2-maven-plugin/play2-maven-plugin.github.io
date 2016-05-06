@@ -1,12 +1,12 @@
 <map id="G" name="G">
 <area shape="rect" id="c83" href="./AbstractPlay2ServerMojo.html" title="com.google.code.play2.plugin.AbstractPlay2ServerMojo" alt="" coords="95,209,252,233"/>
 <area shape="rect" id="node1" href="./AbstractPlay2ServerMojo.html" title="&lt;TABLE&gt;" alt="" coords="84,197,263,245"/>
-<area shape="rect" id="c163" href="http://play2-maven-plugin.github.io/external-apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/taskdefs/Java.html" title="org.apache.tools.ant.taskdefs.Java" alt="" coords="16,299,160,335"/>
+<area shape="rect" id="c167" href="http://play2-maven-plugin.github.io/external-apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/taskdefs/Java.html" title="org.apache.tools.ant.taskdefs.Java" alt="" coords="16,299,160,335"/>
 <area shape="rect" id="node7" href="http://play2-maven-plugin.github.io/external-apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/taskdefs/Java.html" title="&lt;TABLE&gt;" alt="" coords="5,293,171,341"/>
-<area shape="rect" id="c176" href="http://play2-maven-plugin.github.io/external-apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/Project.html" title="org.apache.tools.ant.Project" alt="" coords="227,299,331,335"/>
+<area shape="rect" id="c179" href="http://play2-maven-plugin.github.io/external-apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/Project.html" title="org.apache.tools.ant.Project" alt="" coords="227,299,331,335"/>
 <area shape="rect" id="node9" href="http://play2-maven-plugin.github.io/external-apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/Project.html" title="&lt;TABLE&gt;" alt="" coords="216,293,341,341"/>
-<area shape="rect" id="c96" href="./AbstractPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractPlay2Mojo" alt="" coords="113,17,234,41"/>
+<area shape="rect" id="c97" href="./AbstractPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractPlay2Mojo" alt="" coords="113,17,234,41"/>
 <area shape="rect" id="node2" href="./AbstractPlay2Mojo.html" title="&lt;TABLE&gt;" alt="" coords="103,5,244,53"/>
-<area shape="rect" id="c109" href="./AbstractAntJavaBasedPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo" alt="" coords="73,113,273,137"/>
+<area shape="rect" id="c110" href="./AbstractAntJavaBasedPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo" alt="" coords="73,113,273,137"/>
 <area shape="rect" id="node3" href="./AbstractAntJavaBasedPlay2Mojo.html" title="&lt;TABLE&gt;" alt="" coords="63,101,284,149"/>
 </map>
