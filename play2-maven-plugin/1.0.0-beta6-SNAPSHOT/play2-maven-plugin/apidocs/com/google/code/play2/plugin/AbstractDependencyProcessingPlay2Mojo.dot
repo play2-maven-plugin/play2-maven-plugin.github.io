@@ -10,30 +10,28 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.AbstractPlay2Mojo
-	c271 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2Mojo.html">
+	c290 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2Mojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2Mojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2Mojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractDependencyProcessingPlay2Mojo
-	c275 [label=<<table title="com.google.code.play2.plugin.AbstractDependencyProcessingPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractDependencyProcessingPlay2Mojo.html">
+	c294 [label=<<table title="com.google.code.play2.plugin.AbstractDependencyProcessingPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractDependencyProcessingPlay2Mojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractDependencyProcessingPlay2Mojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractDependencyProcessingPlay2Mojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.plugin.AbstractDependencyProcessingPlay2Mojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c271:p -> c275:p [dir=back,arrowtail=empty];
-	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND org.apache.maven.artifact.Artifact
-	c271:p -> c279:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c290:p -> c294:p [dir=back,arrowtail=empty];
 	// com.google.code.play2.plugin.AbstractDependencyProcessingPlay2Mojo DEPEND org.apache.maven.artifact.Artifact
-	c275:p -> c279:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c294:p -> c302:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.apache.maven.artifact.Artifact
-	c279 [label=<<table title="org.apache.maven.artifact.Artifact" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html">
+	c302 [label=<<table title="org.apache.maven.artifact.Artifact" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.0/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Artifact </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.artifact </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="http://maven.apache.org/ref/3.0/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html", fontname="arial", fontcolor="black", fontsize=9.0];
 }
 

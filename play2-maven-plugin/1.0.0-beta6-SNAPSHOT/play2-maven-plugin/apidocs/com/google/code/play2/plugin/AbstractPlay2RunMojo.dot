@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.Play2RunMojo
-	c407 [label=<<table title="com.google.code.play2.plugin.Play2RunMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2RunMojo.html">
+	c428 [label=<<table title="com.google.code.play2.plugin.Play2RunMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2RunMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2RunMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2RunMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2ServerMojo
-	c421 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2ServerMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2ServerMojo.html">
+	c442 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2ServerMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2ServerMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2ServerMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2ServerMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2RunMojo
-	c422 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2RunMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractPlay2RunMojo.html">
+	c443 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2RunMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractPlay2RunMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2RunMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2RunMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.plugin.Play2RunMojo extends com.google.code.play2.plugin.AbstractPlay2RunMojo
-	c422:p -> c407:p [dir=back,arrowtail=empty];
+	c443:p -> c428:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractPlay2RunMojo extends com.google.code.play2.plugin.AbstractPlay2ServerMojo
-	c421:p -> c422:p [dir=back,arrowtail=empty];
+	c442:p -> c443:p [dir=back,arrowtail=empty];
 }
 

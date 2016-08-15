@@ -10,166 +10,139 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.AbstractPlay2StopServerMojo
-	c381 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2StopServerMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2StopServerMojo.html">
+	c404 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2StopServerMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2StopServerMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2StopServerMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2StopServerMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo
-	c383 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2SourceGeneratorMojo.html">
+	c406 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2SourceGeneratorMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2SourceGeneratorMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2SourceGeneratorMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo
-	c386 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractPlay2Mojo.html">
+	c409 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractPlay2Mojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2Mojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2Mojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo
-	c387 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2EnhanceMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2EnhanceMojo.html">
+	c410 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2EnhanceMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2EnhanceMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2EnhanceMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2EnhanceMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2AssetsCompileMojo
-	c389 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2AssetsCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2AssetsCompileMojo.html">
+	c412 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2AssetsCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2AssetsCompileMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2AssetsCompileMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2AssetsCompileMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractDependencyProcessingPlay2Mojo
-	c390 [label=<<table title="com.google.code.play2.plugin.AbstractDependencyProcessingPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractDependencyProcessingPlay2Mojo.html">
+	c413 [label=<<table title="com.google.code.play2.plugin.AbstractDependencyProcessingPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractDependencyProcessingPlay2Mojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractDependencyProcessingPlay2Mojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractDependencyProcessingPlay2Mojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractArchivingMojo
-	c391 [label=<<table title="com.google.code.play2.plugin.AbstractArchivingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractArchivingMojo.html">
+	c414 [label=<<table title="com.google.code.play2.plugin.AbstractArchivingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractArchivingMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractArchivingMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractArchivingMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo
-	c392 [label=<<table title="com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractAntJavaBasedPlay2Mojo.html">
+	c415 [label=<<table title="com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractAntJavaBasedPlay2Mojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractAntJavaBasedPlay2Mojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractAntJavaBasedPlay2Mojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.plugin.AbstractPlay2StopServerMojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c386:p -> c381:p [dir=back,arrowtail=empty];
+	c409:p -> c404:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c386:p -> c383:p [dir=back,arrowtail=empty];
+	c409:p -> c406:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractPlay2Mojo extends org.apache.maven.plugin.AbstractMojo
-	c394:p -> c386:p [dir=back,arrowtail=empty];
+	c417:p -> c409:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractPlay2EnhanceMojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c386:p -> c387:p [dir=back,arrowtail=empty];
+	c409:p -> c410:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractPlay2AssetsCompileMojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c386:p -> c389:p [dir=back,arrowtail=empty];
+	c409:p -> c412:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractDependencyProcessingPlay2Mojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c386:p -> c390:p [dir=back,arrowtail=empty];
+	c409:p -> c413:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractArchivingMojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c386:p -> c391:p [dir=back,arrowtail=empty];
+	c409:p -> c414:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c386:p -> c392:p [dir=back,arrowtail=empty];
+	c409:p -> c415:p [dir=back,arrowtail=empty];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo NAVASSOC org.apache.maven.project.MavenProject
-	c386:p -> c395:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// com.google.code.play2.plugin.AbstractPlay2Mojo NAVASSOC org.apache.maven.artifact.factory.ArtifactFactory
-	c386:p -> c396:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// com.google.code.play2.plugin.AbstractPlay2Mojo NAVASSOC org.apache.maven.artifact.resolver.ArtifactResolver
-	c386:p -> c397:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c409:p -> c418:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// com.google.code.play2.plugin.AbstractPlay2Mojo NAVASSOC org.apache.maven.execution.MavenSession
+	c409:p -> c419:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo NAVASSOC org.apache.maven.artifact.repository.ArtifactRepository
-	c386:p -> c398:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c409:p -> c420:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo NAVASSOC org.apache.maven.artifact.repository.ArtifactRepository
-	c386:p -> c398:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// com.google.code.play2.plugin.AbstractPlay2Mojo NAVASSOC org.apache.maven.artifact.metadata.ArtifactMetadataSource
-	c386:p -> c399:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c409:p -> c420:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// com.google.code.play2.plugin.AbstractPlay2Mojo NAVASSOC org.apache.maven.repository.RepositorySystem
+	c409:p -> c421:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// com.google.code.play2.plugin.AbstractPlay2Mojo NAVASSOC org.apache.maven.artifact.resolver.ResolutionErrorHandler
+	c409:p -> c422:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo NAVASSOC com.google.code.play2.provider.api.Play2Provider
-	c386:p -> c400:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo NAVASSOC org.apache.maven.artifact.Artifact
-	c387:p -> c401:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND org.apache.maven.artifact.Artifact
-	c386:p -> c401:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND org.apache.maven.artifact.resolver.filter.ArtifactFilter
-	c386:p -> c403:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c409:p -> c423:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND com.google.code.play2.provider.api.Play2Provider
-	c386:p -> c400:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.artifact.Artifact
-	c387:p -> c401:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c409:p -> c423:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.project.MavenProject
-	c387:p -> c395:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractDependencyProcessingPlay2Mojo DEPEND org.apache.maven.artifact.Artifact
-	c390:p -> c401:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// org.apache.maven.artifact.metadata.ArtifactMetadataSource
-	c399 [label=<<table title="org.apache.maven.artifact.metadata.ArtifactMetadataSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/metadata/ArtifactMetadataSource.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> ArtifactMetadataSource </td></tr>
-<tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.artifact.metadata </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/metadata/ArtifactMetadataSource.html", fontname="arial", fontcolor="black", fontsize=9.0];
+	c410:p -> c418:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.provider.api.Play2Provider
-	c400 [label=<<table title="com.google.code.play2.provider.api.Play2Provider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c423 [label=<<table title="com.google.code.play2.provider.api.Play2Provider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2Provider </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.google.code.play2.provider.api </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
-	// org.apache.maven.artifact.resolver.filter.ArtifactFilter
-	c403 [label=<<table title="org.apache.maven.artifact.resolver.filter.ArtifactFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/resolver/filter/ArtifactFilter.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> ArtifactFilter </td></tr>
-<tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.artifact.resolver.filter </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/resolver/filter/ArtifactFilter.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.project.MavenProject
-	c395 [label=<<table title="org.apache.maven.project.MavenProject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-project/apidocs/org/apache/maven/project/MavenProject.html">
+	c418 [label=<<table title="org.apache.maven.project.MavenProject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MavenProject </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.project </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven.apache.org/ref/2.2.1/maven-project/apidocs/org/apache/maven/project/MavenProject.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.artifact.repository.ArtifactRepository
-	c398 [label=<<table title="org.apache.maven.artifact.repository.ArtifactRepository" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/repository/ArtifactRepository.html">
+	c420 [label=<<table title="org.apache.maven.artifact.repository.ArtifactRepository" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/artifact/repository/ArtifactRepository.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ArtifactRepository </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.artifact.repository </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/repository/ArtifactRepository.html", fontname="arial", fontcolor="black", fontsize=9.0];
-	// org.apache.maven.artifact.Artifact
-	c401 [label=<<table title="org.apache.maven.artifact.Artifact" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html">
+		</table>>, URL="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/artifact/repository/ArtifactRepository.html", fontname="arial", fontcolor="black", fontsize=9.0];
+	// org.apache.maven.execution.MavenSession
+	c419 [label=<<table title="org.apache.maven.execution.MavenSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/execution/MavenSession.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> Artifact </td></tr>
-<tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.artifact </font></td></tr>
+<tr><td align="center" balign="center"> MavenSession </td></tr>
+<tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.execution </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html", fontname="arial", fontcolor="black", fontsize=9.0];
-	// org.apache.maven.artifact.resolver.ArtifactResolver
-	c397 [label=<<table title="org.apache.maven.artifact.resolver.ArtifactResolver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/resolver/ArtifactResolver.html">
+		</table>>, URL="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/execution/MavenSession.html", fontname="arial", fontcolor="black", fontsize=9.0];
+	// org.apache.maven.artifact.resolver.ResolutionErrorHandler
+	c422 [label=<<table title="org.apache.maven.artifact.resolver.ResolutionErrorHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/artifact/resolver/ResolutionErrorHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> ArtifactResolver </td></tr>
+<tr><td align="center" balign="center"> ResolutionErrorHandler </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.artifact.resolver </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/resolver/ArtifactResolver.html", fontname="arial", fontcolor="black", fontsize=9.0];
-	// org.apache.maven.artifact.factory.ArtifactFactory
-	c396 [label=<<table title="org.apache.maven.artifact.factory.ArtifactFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/factory/ArtifactFactory.html">
+		</table>>, URL="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/artifact/resolver/ResolutionErrorHandler.html", fontname="arial", fontcolor="black", fontsize=9.0];
+	// org.apache.maven.repository.RepositorySystem
+	c421 [label=<<table title="org.apache.maven.repository.RepositorySystem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/repository/RepositorySystem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> ArtifactFactory </td></tr>
-<tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.artifact.factory </font></td></tr>
+<tr><td align="center" balign="center"> RepositorySystem </td></tr>
+<tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.repository </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/factory/ArtifactFactory.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/repository/RepositorySystem.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.plugin.AbstractMojo
-	c394 [label=<<table title="org.apache.maven.plugin.AbstractMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-plugin-api/apidocs/org/apache/maven/plugin/AbstractMojo.html">
+	c417 [label=<<table title="org.apache.maven.plugin.AbstractMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/plugin/AbstractMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractMojo </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.plugin </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven.apache.org/ref/2.2.1/maven-plugin-api/apidocs/org/apache/maven/plugin/AbstractMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/plugin/AbstractMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 }
 
