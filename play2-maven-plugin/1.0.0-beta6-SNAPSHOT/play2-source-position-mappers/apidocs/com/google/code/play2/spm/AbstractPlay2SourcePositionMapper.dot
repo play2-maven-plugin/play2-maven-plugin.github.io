@@ -36,12 +36,12 @@ digraph G {
 	//com.google.code.play2.spm.template.Play2TemplateSourcePositionMapper extends com.google.code.play2.spm.AbstractPlay2SourcePositionMapper
 	c20:p -> c27:p [dir=back,arrowtail=empty];
 	// com.google.code.sbt.compiler.api.SourcePositionMapper
-	c31 [label=<<table title="com.google.code.sbt.compiler.api.SourcePositionMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-beta8/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/SourcePositionMapper.html">
+	c31 [label=<<table title="com.google.code.sbt.compiler.api.SourcePositionMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-beta9/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/SourcePositionMapper.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SourcePositionMapper </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.google.code.sbt.compiler.api </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-beta8/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/SourcePositionMapper.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-beta9/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/SourcePositionMapper.html", fontname="arial", fontcolor="black", fontsize=9.0];
 }
 
