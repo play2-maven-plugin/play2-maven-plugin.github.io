@@ -31,23 +31,23 @@ digraph G {
 	c109:p -> c83:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
 	c95:p -> c109:p [dir=back,arrowtail=empty];
-	// com.google.code.play2.plugin.AbstractPlay2ServerMojo DEPEND org.apache.tools.ant.Project
-	c83:p -> c182:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2ServerMojo DEPEND org.apache.tools.ant.taskdefs.Java
-	c83:p -> c201:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo DEPEND org.apache.tools.ant.Project
-	c109:p -> c182:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c83:p -> c182:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.AbstractPlay2ServerMojo DEPEND org.apache.tools.ant.Project
+	c83:p -> c195:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo DEPEND org.apache.tools.ant.taskdefs.Java
-	c109:p -> c201:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c109:p -> c182:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo DEPEND org.apache.tools.ant.Project
+	c109:p -> c195:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.apache.tools.ant.Project
-	c182 [label=<<table title="org.apache.tools.ant.Project" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://play2-maven-plugin.github.io/external-apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/Project.html">
+	c195 [label=<<table title="org.apache.tools.ant.Project" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://play2-maven-plugin.github.io/external-apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/Project.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Project </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.tools.ant </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="http://play2-maven-plugin.github.io/external-apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/Project.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.tools.ant.taskdefs.Java
-	c201 [label=<<table title="org.apache.tools.ant.taskdefs.Java" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://play2-maven-plugin.github.io/external-apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/taskdefs/Java.html">
+	c182 [label=<<table title="org.apache.tools.ant.taskdefs.Java" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://play2-maven-plugin.github.io/external-apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/taskdefs/Java.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Java </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.tools.ant.taskdefs </font></td></tr>

@@ -107,13 +107,13 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.artifact.repository.ArtifactRepository
-	c420 [label=<<table title="org.apache.maven.artifact.repository.ArtifactRepository" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.0/maven-artifact/apidocs/org/apache/maven/artifact/repository/ArtifactRepository.html">
+	c420 [label=<<table title="org.apache.maven.artifact.repository.ArtifactRepository" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/artifact/repository/ArtifactRepository.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ArtifactRepository </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.artifact.repository </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven.apache.org/ref/3.0/maven-artifact/apidocs/org/apache/maven/artifact/repository/ArtifactRepository.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/artifact/repository/ArtifactRepository.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.execution.MavenSession
 	c419 [label=<<table title="org.apache.maven.execution.MavenSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/execution/MavenSession.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
@@ -122,13 +122,13 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/execution/MavenSession.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.artifact.resolver.ResolutionErrorHandler
-	c422 [label=<<table title="org.apache.maven.artifact.resolver.ResolutionErrorHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/artifact/resolver/ResolutionErrorHandler.html">
+	c422 [label=<<table title="org.apache.maven.artifact.resolver.ResolutionErrorHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.0/maven-artifact/apidocs/org/apache/maven/artifact/resolver/ResolutionErrorHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ResolutionErrorHandler </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.artifact.resolver </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/artifact/resolver/ResolutionErrorHandler.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="http://maven.apache.org/ref/3.0/maven-artifact/apidocs/org/apache/maven/artifact/resolver/ResolutionErrorHandler.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.repository.RepositorySystem
 	c421 [label=<<table title="org.apache.maven.repository.RepositorySystem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/repository/RepositorySystem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">

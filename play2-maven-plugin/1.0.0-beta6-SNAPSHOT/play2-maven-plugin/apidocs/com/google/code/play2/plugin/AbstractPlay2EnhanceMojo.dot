@@ -45,12 +45,12 @@ digraph G {
 	c380:p -> c388:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo NAVASSOC com.google.code.sbt.compiler.api.AnalysisProcessor
 	c380:p -> c389:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.artifact.Artifact
+	c380:p -> c388:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND com.google.code.sbt.compiler.api.AnalysisProcessor
 	c380:p -> c389:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.project.MavenProject
 	c380:p -> c387:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.artifact.Artifact
-	c380:p -> c388:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.apache.maven.project.MavenProject
 	c387 [label=<<table title="org.apache.maven.project.MavenProject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
@@ -67,12 +67,12 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-beta9/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/AnalysisProcessor.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.artifact.Artifact
-	c388 [label=<<table title="org.apache.maven.artifact.Artifact" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.0/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html">
+	c388 [label=<<table title="org.apache.maven.artifact.Artifact" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/artifact/Artifact.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Artifact </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.artifact </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven.apache.org/ref/3.0/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="http://maven.apache.org/ref/3.0/maven-core/apidocs/org/apache/maven/artifact/Artifact.html", fontname="arial", fontcolor="black", fontsize=9.0];
 }
 
