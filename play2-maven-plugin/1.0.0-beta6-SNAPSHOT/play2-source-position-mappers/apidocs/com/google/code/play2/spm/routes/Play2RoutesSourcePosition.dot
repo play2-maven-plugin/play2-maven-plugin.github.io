@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.spm.routes.Play2RoutesSourcePosition
-	c34 [label=<<table title="com.google.code.play2.spm.routes.Play2RoutesSourcePosition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play2RoutesSourcePosition.html">
+	c40 [label=<<table title="com.google.code.play2.spm.routes.Play2RoutesSourcePosition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play2RoutesSourcePosition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2RoutesSourcePosition </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2RoutesSourcePosition.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.spm.routes.Play2RoutesSourcePosition implements com.google.code.sbt.compiler.api.SourcePosition
-	c37:p -> c34:p [dir=back,arrowtail=empty,style=dashed];
+	c44:p -> c40:p [dir=back,arrowtail=empty,style=dashed];
 	// com.google.code.sbt.compiler.api.SourcePosition
-	c37 [label=<<table title="com.google.code.sbt.compiler.api.SourcePosition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-beta9/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/SourcePosition.html">
+	c44 [label=<<table title="com.google.code.sbt.compiler.api.SourcePosition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-beta9/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/SourcePosition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SourcePosition </td></tr>

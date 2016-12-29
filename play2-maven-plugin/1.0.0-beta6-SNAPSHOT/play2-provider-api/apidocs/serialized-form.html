@@ -79,44 +79,25 @@
 <li class="blockList"><a name="com.google.code.play2.provider.api.AssetCompilationException">
 <!--   -->
 </a>
-<h3>Class <a href="com/google/code/play2/provider/api/AssetCompilationException.html" title="class in com.google.code.play2.provider.api">com.google.code.play2.provider.api.AssetCompilationException</a> extends <a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a> implements Serializable</h3>
+<h3>Class <a href="com/google/code/play2/provider/api/AssetCompilationException.html" title="class in com.google.code.play2.provider.api">com.google.code.play2.provider.api.AssetCompilationException</a> extends <a href="com/google/code/play2/provider/api/Play2BuildException.html" title="class in com.google.code.play2.provider.api">Play2BuildException</a> implements Serializable</h3>
 <dl class="nameValue">
 <dt>serialVersionUID:</dt>
-<dd>1L</dd>
+<dd>2L</dd>
 </dl>
-<ul class="blockList">
-<li class="blockList">
-<h3>Serialized Fields</h3>
-<ul class="blockList">
-<li class="blockList">
-<h4>source</h4>
-<pre><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a> source</pre>
 </li>
-<li class="blockList">
-<h4>line</h4>
-<pre><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a> line</pre>
-</li>
-<li class="blockListLast">
-<h4>position</h4>
-<pre><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a> position</pre>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="blockList"><a name="com.google.code.play2.provider.api.RoutesCompilationException">
+<li class="blockList"><a name="com.google.code.play2.provider.api.Play2BuildError">
 <!--   -->
 </a>
-<h3>Class <a href="com/google/code/play2/provider/api/RoutesCompilationException.html" title="class in com.google.code.play2.provider.api">com.google.code.play2.provider.api.RoutesCompilationException</a> extends <a href="com/google/code/play2/provider/api/SourceGenerationException.html" title="class in com.google.code.play2.provider.api">SourceGenerationException</a> implements Serializable</h3>
+<h3>Class <a href="com/google/code/play2/provider/api/Play2BuildError.html" title="class in com.google.code.play2.provider.api">com.google.code.play2.provider.api.Play2BuildError</a> extends <a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a> implements Serializable</h3>
 <dl class="nameValue">
 <dt>serialVersionUID:</dt>
 <dd>1L</dd>
 </dl>
 </li>
-<li class="blockList"><a name="com.google.code.play2.provider.api.SourceGenerationException">
+<li class="blockList"><a name="com.google.code.play2.provider.api.Play2BuildException">
 <!--   -->
 </a>
-<h3>Class <a href="com/google/code/play2/provider/api/SourceGenerationException.html" title="class in com.google.code.play2.provider.api">com.google.code.play2.provider.api.SourceGenerationException</a> extends <a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a> implements Serializable</h3>
+<h3>Class <a href="com/google/code/play2/provider/api/Play2BuildException.html" title="class in com.google.code.play2.provider.api">com.google.code.play2.provider.api.Play2BuildException</a> extends <a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a> implements Serializable</h3>
 <dl class="nameValue">
 <dt>serialVersionUID:</dt>
 <dd>1L</dd>
@@ -141,13 +122,121 @@
 </li>
 </ul>
 </li>
+<li class="blockList"><a name="com.google.code.play2.provider.api.Play2BuildFailure">
+<!--   -->
+</a>
+<h3>Class <a href="com/google/code/play2/provider/api/Play2BuildFailure.html" title="class in com.google.code.play2.provider.api">com.google.code.play2.provider.api.Play2BuildFailure</a> extends <a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a> implements Serializable</h3>
+<dl class="nameValue">
+<dt>serialVersionUID:</dt>
+<dd>1L</dd>
+</dl>
+<ul class="blockList">
+<li class="blockList">
+<h3>Serialized Fields</h3>
+<ul class="blockList">
+<li class="blockList">
+<h4>e</h4>
+<pre><a href="com/google/code/play2/provider/api/Play2BuildException.html" title="class in com.google.code.play2.provider.api">Play2BuildException</a> e</pre>
+</li>
+<li class="blockListLast">
+<h4>charsetName</h4>
+<pre><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> charsetName</pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="blockList"><a name="com.google.code.play2.provider.api.Play2RunnerConfiguration">
+<!--   -->
+</a>
+<h3>Class <a href="com/google/code/play2/provider/api/Play2RunnerConfiguration.html" title="class in com.google.code.play2.provider.api">com.google.code.play2.provider.api.Play2RunnerConfiguration</a> extends <a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a> implements Serializable</h3>
+<dl class="nameValue">
+<dt>serialVersionUID:</dt>
+<dd>1L</dd>
+</dl>
+<ul class="blockList">
+<li class="blockList">
+<h3>Serialized Fields</h3>
+<ul class="blockList">
+<li class="blockList">
+<h4>baseDirectory</h4>
+<pre><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a> baseDirectory</pre>
+<div class="block">...</div>
+</li>
+<li class="blockList">
+<h4>outputDirectories</h4>
+<pre><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">E</a>&gt; outputDirectories</pre>
+<div class="block">...</div>
+</li>
+<li class="blockList">
+<h4>dependencyClasspath</h4>
+<pre><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">E</a>&gt; dependencyClasspath</pre>
+<div class="block">...</div>
+</li>
+<li class="blockList">
+<h4>docsFile</h4>
+<pre><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a> docsFile</pre>
+<div class="block">...</div>
+</li>
+<li class="blockList">
+<h4>docsClasspath</h4>
+<pre><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">E</a>&gt; docsClasspath</pre>
+<div class="block">...</div>
+</li>
+<li class="blockList">
+<h4>httpPort</h4>
+<pre><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a> httpPort</pre>
+<div class="block">...</div>
+</li>
+<li class="blockList">
+<h4>httpsPort</h4>
+<pre><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a> httpsPort</pre>
+<div class="block">...</div>
+</li>
+<li class="blockList">
+<h4>httpAddress</h4>
+<pre><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> httpAddress</pre>
+<div class="block">...</div>
+</li>
+<li class="blockList">
+<h4>assets</h4>
+<pre><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">E</a>&gt; assets</pre>
+<div class="block">...</div>
+</li>
+<li class="blockListLast">
+<h4>devSettings</h4>
+<pre><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/util/Map.html?is-external=true" title="class or interface in java.util">Map</a>&lt;<a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/util/Map.html?is-external=true" title="class or interface in java.util">K</a>,<a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/util/Map.html?is-external=true" title="class or interface in java.util">V</a>&gt; devSettings</pre>
+<div class="block">...</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="blockList"><a name="com.google.code.play2.provider.api.RoutesCompilationException">
+<!--   -->
+</a>
+<h3>Class <a href="com/google/code/play2/provider/api/RoutesCompilationException.html" title="class in com.google.code.play2.provider.api">com.google.code.play2.provider.api.RoutesCompilationException</a> extends <a href="com/google/code/play2/provider/api/SourceGenerationException.html" title="class in com.google.code.play2.provider.api">SourceGenerationException</a> implements Serializable</h3>
+<dl class="nameValue">
+<dt>serialVersionUID:</dt>
+<dd>2L</dd>
+</dl>
+</li>
+<li class="blockList"><a name="com.google.code.play2.provider.api.SourceGenerationException">
+<!--   -->
+</a>
+<h3>Class <a href="com/google/code/play2/provider/api/SourceGenerationException.html" title="class in com.google.code.play2.provider.api">com.google.code.play2.provider.api.SourceGenerationException</a> extends <a href="com/google/code/play2/provider/api/Play2BuildException.html" title="class in com.google.code.play2.provider.api">Play2BuildException</a> implements Serializable</h3>
+<dl class="nameValue">
+<dt>serialVersionUID:</dt>
+<dd>2L</dd>
+</dl>
+</li>
 <li class="blockList"><a name="com.google.code.play2.provider.api.TemplateCompilationException">
 <!--   -->
 </a>
 <h3>Class <a href="com/google/code/play2/provider/api/TemplateCompilationException.html" title="class in com.google.code.play2.provider.api">com.google.code.play2.provider.api.TemplateCompilationException</a> extends <a href="com/google/code/play2/provider/api/SourceGenerationException.html" title="class in com.google.code.play2.provider.api">SourceGenerationException</a> implements Serializable</h3>
 <dl class="nameValue">
 <dt>serialVersionUID:</dt>
-<dd>1L</dd>
+<dd>2L</dd>
 </dl>
 </li>
 </ul>

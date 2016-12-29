@@ -18,7 +18,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10};
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -37,7 +37,8 @@ var activeTableTab = "activeTableTab";
 <!--   -->
 </a>
 <ul class="navList" title="Navigation">
-<li><a href="../../../../../../com/google/code/play2/provider/play22/package-summary.html">Package</a></li>
+<li><a href="../../../../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
 <li class="navBarCell1Rev">Class</li>
 <li><a href="class-use/Play22Runner.html">Use</a></li>
 <li><a href="package-tree.html">Tree</a></li>
@@ -94,9 +95,11 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">com.google.code.play2.provider.play22</div>
 <h2 title="Class Play22Runner" class="title">Class Play22Runner</h2>
 <map id="G" name="G">
-<area shape="rect" id="c221" href="./Play22Runner.html" title="com.google.code.play2.provider.play22.Play22Runner" alt="" coords="51,127,149,151"/>
-<area shape="rect" id="node1" href="./Play22Runner.html" title="&lt;TABLE&gt;" alt="" coords="41,115,159,163"/>
-<area shape="rect" id="node2" href="null" title="&lt;TABLE&gt;" alt="" coords="5,5,195,67"/>
+<area shape="rect" id="c395" href="./Play22Runner.html" title="com.google.code.play2.provider.play22.Play22Runner" alt="" coords="158,127,255,151"/>
+<area shape="rect" id="node1" href="./Play22Runner.html" title="&lt;TABLE&gt;" alt="" coords="148,115,265,163"/>
+<area shape="rect" id="node5" href="null" title="&lt;TABLE&gt;" alt="" coords="5,211,195,272"/>
+<area shape="rect" id="node7" href="null" title="&lt;TABLE&gt;" alt="" coords="219,217,408,265"/>
+<area shape="rect" id="node2" href="null" title="&lt;TABLE&gt;" alt="" coords="112,5,301,67"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
 <div align="center"><img src="Play22Runner.png" alt="Package class diagram package Play22Runner" usemap="#G" border=0/></div>
@@ -159,7 +162,20 @@ implements <a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../com/google/code/play2/provider/play22/Play22Runner.html#getPlayDocsModuleId-java.lang.String-java.lang.String-">getPlayDocsModuleId</a></span>(<a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;scalaBinaryVersion,
+                   <a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;playVersion)</code>&nbsp;</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../com/google/code/play2/provider/play22/Play22Runner.html#getServerMainClass--">getServerMainClass</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i2" class="altColor">
+<td class="colFirst"><code><a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.0-beta6-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2DevServer.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2DevServer</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../com/google/code/play2/provider/play22/Play22Runner.html#runInDevMode-com.google.code.play2.provider.api.Play2RunnerConfiguration-">runInDevMode</a></span>(<a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.0-beta6-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2RunnerConfiguration.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2RunnerConfiguration</a>&nbsp;configuration)</code>&nbsp;</td>
+</tr>
+<tr id="i3" class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../com/google/code/play2/provider/play22/Play22Runner.html#supportsRunInDevMode--">supportsRunInDevMode</a></span>()</code>&nbsp;</td>
 </tr>
 </table>
 <ul class="blockList">
@@ -203,13 +219,56 @@ implements <a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.
 <a name="getServerMainClass--">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>getServerMainClass</h4>
 <pre>public&nbsp;<a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getServerMainClass()</pre>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.0-beta6-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Runner.html?is-external=true#getServerMainClass--" title="class or interface in com.google.code.play2.provider.api">getServerMainClass</a></code>&nbsp;in interface&nbsp;<code><a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.0-beta6-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Runner.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2Runner</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="supportsRunInDevMode--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>supportsRunInDevMode</h4>
+<pre>public&nbsp;boolean&nbsp;supportsRunInDevMode()</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.0-beta6-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Runner.html?is-external=true#supportsRunInDevMode--" title="class or interface in com.google.code.play2.provider.api">supportsRunInDevMode</a></code>&nbsp;in interface&nbsp;<code><a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.0-beta6-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Runner.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2Runner</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getPlayDocsModuleId-java.lang.String-java.lang.String-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getPlayDocsModuleId</h4>
+<pre>public&nbsp;<a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getPlayDocsModuleId(<a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;scalaBinaryVersion,
+                                  <a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;playVersion)</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.0-beta6-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Runner.html?is-external=true#getPlayDocsModuleId-java.lang.String-java.lang.String-" title="class or interface in com.google.code.play2.provider.api">getPlayDocsModuleId</a></code>&nbsp;in interface&nbsp;<code><a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.0-beta6-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Runner.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2Runner</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="runInDevMode-com.google.code.play2.provider.api.Play2RunnerConfiguration-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>runInDevMode</h4>
+<pre>public&nbsp;<a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.0-beta6-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2DevServer.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2DevServer</a>&nbsp;runInDevMode(<a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.0-beta6-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2RunnerConfiguration.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2RunnerConfiguration</a>&nbsp;configuration)
+                            throws <a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/Throwable.html?is-external=true" title="class or interface in java.lang">Throwable</a></pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.0-beta6-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Runner.html?is-external=true#runInDevMode-com.google.code.play2.provider.api.Play2RunnerConfiguration-" title="class or interface in com.google.code.play2.provider.api">runInDevMode</a></code>&nbsp;in interface&nbsp;<code><a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.0-beta6-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Runner.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2Runner</a></code></dd>
+<dt><span class="throwsLabel">Throws:</span></dt>
+<dd><code><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/Throwable.html?is-external=true" title="class or interface in java.lang">Throwable</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -229,7 +288,8 @@ implements <a href="https://play2-maven-plugin.github.io/play2-maven-plugin/1.0.
 <!--   -->
 </a>
 <ul class="navList" title="Navigation">
-<li><a href="../../../../../../com/google/code/play2/provider/play22/package-summary.html">Package</a></li>
+<li><a href="../../../../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
 <li class="navBarCell1Rev">Class</li>
 <li><a href="class-use/Play22Runner.html">Use</a></li>
 <li><a href="package-tree.html">Tree</a></li>

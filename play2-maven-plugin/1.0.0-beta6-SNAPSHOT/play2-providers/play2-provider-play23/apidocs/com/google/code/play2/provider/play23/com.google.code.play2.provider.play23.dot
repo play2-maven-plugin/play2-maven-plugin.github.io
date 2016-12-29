@@ -82,9 +82,9 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./Play23CoffeescriptCompiler.CompileResult.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.provider.play23.Play23LessCompiler.CompileResult extends com.google.code.play2.provider.play23.Play23LessCompiler.InternalCompileResult
-	c12:p -> c5:p [dir=back,arrowtail=empty];
+	c20:p -> c5:p [dir=back,arrowtail=empty];
 	// com.google.code.play2.provider.play23.Play23LessCompiler.InternalCompileResult
-	c12 [label=<<table title="com.google.code.play2.provider.play23.Play23LessCompiler.InternalCompileResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c20 [label=<<table title="com.google.code.play2.provider.play23.Play23LessCompiler.InternalCompileResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InternalCompileResult </td></tr>
 		</table></td></tr>

@@ -10,33 +10,33 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.spm.AbstractPlay2SourcePositionMapper
-	c20 [label=<<table title="com.google.code.play2.spm.AbstractPlay2SourcePositionMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractPlay2SourcePositionMapper.html">
+	c23 [label=<<table title="com.google.code.play2.spm.AbstractPlay2SourcePositionMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractPlay2SourcePositionMapper.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2SourcePositionMapper </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2SourcePositionMapper.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.spm.routes.Play2RoutesSourcePositionMapper
-	c23 [label=<<table title="com.google.code.play2.spm.routes.Play2RoutesSourcePositionMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./routes/Play2RoutesSourcePositionMapper.html">
+	c26 [label=<<table title="com.google.code.play2.spm.routes.Play2RoutesSourcePositionMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./routes/Play2RoutesSourcePositionMapper.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2RoutesSourcePositionMapper </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.google.code.play2.spm.routes </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./routes/Play2RoutesSourcePositionMapper.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.spm.template.Play2TemplateSourcePositionMapper
-	c27 [label=<<table title="com.google.code.play2.spm.template.Play2TemplateSourcePositionMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./template/Play2TemplateSourcePositionMapper.html">
+	c30 [label=<<table title="com.google.code.play2.spm.template.Play2TemplateSourcePositionMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./template/Play2TemplateSourcePositionMapper.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2TemplateSourcePositionMapper </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.google.code.play2.spm.template </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./template/Play2TemplateSourcePositionMapper.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.spm.AbstractPlay2SourcePositionMapper implements com.google.code.sbt.compiler.api.SourcePositionMapper
-	c31:p -> c20:p [dir=back,arrowtail=empty,style=dashed];
+	c37:p -> c23:p [dir=back,arrowtail=empty,style=dashed];
 	//com.google.code.play2.spm.routes.Play2RoutesSourcePositionMapper extends com.google.code.play2.spm.AbstractPlay2SourcePositionMapper
-	c20:p -> c23:p [dir=back,arrowtail=empty];
+	c23:p -> c26:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.spm.template.Play2TemplateSourcePositionMapper extends com.google.code.play2.spm.AbstractPlay2SourcePositionMapper
-	c20:p -> c27:p [dir=back,arrowtail=empty];
+	c23:p -> c30:p [dir=back,arrowtail=empty];
 	// com.google.code.sbt.compiler.api.SourcePositionMapper
-	c31 [label=<<table title="com.google.code.sbt.compiler.api.SourcePositionMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-beta9/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/SourcePositionMapper.html">
+	c37 [label=<<table title="com.google.code.sbt.compiler.api.SourcePositionMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-beta9/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/SourcePositionMapper.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SourcePositionMapper </td></tr>

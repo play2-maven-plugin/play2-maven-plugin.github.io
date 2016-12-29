@@ -18,7 +18,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":6};
+var methods = {"i0":6,"i1":6,"i2":6,"i3":6};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -49,7 +49,7 @@ var activeTableTab = "activeTableTab";
 <div class="subNav">
 <ul class="navList">
 <li><a href="../../../../../../com/google/code/play2/provider/api/Play2RoutesCompiler.html" title="interface in com.google.code.play2.provider.api"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
-<li><a href="../../../../../../com/google/code/play2/provider/api/Play2TemplateCompiler.html" title="interface in com.google.code.play2.provider.api"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+<li><a href="../../../../../../com/google/code/play2/provider/api/Play2RunnerConfiguration.html" title="class in com.google.code.play2.provider.api"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
 </ul>
 <ul class="navList">
 <li><a href="../../../../../../index.html?com/google/code/play2/provider/api/Play2Runner.html" target="_top">Frames</a></li>
@@ -94,7 +94,7 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">com.google.code.play2.provider.api</div>
 <h2 title="Interface Play2Runner" class="title">Interface Play2Runner</h2>
 <map id="G" name="G">
-<area shape="rect" id="c247" href="./Play2Runner.html" title="com.google.code.play2.provider.api.Play2Runner" alt="" coords="15,11,105,50"/>
+<area shape="rect" id="c494" href="./Play2Runner.html" title="com.google.code.play2.provider.api.Play2Runner" alt="" coords="15,11,105,50"/>
 <area shape="rect" id="node1" href="./Play2Runner.html" title="&lt;TABLE&gt;" alt="" coords="5,6,115,55"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -127,7 +127,20 @@ var activeTableTab = "activeTableTab";
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../com/google/code/play2/provider/api/Play2Runner.html#getPlayDocsModuleId-java.lang.String-java.lang.String-">getPlayDocsModuleId</a></span>(<a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;scalaBinaryVersion,
+                   <a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;playVersion)</code>&nbsp;</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../com/google/code/play2/provider/api/Play2Runner.html#getServerMainClass--">getServerMainClass</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i2" class="altColor">
+<td class="colFirst"><code><a href="../../../../../../com/google/code/play2/provider/api/Play2DevServer.html" title="interface in com.google.code.play2.provider.api">Play2DevServer</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../com/google/code/play2/provider/api/Play2Runner.html#runInDevMode-com.google.code.play2.provider.api.Play2RunnerConfiguration-">runInDevMode</a></span>(<a href="../../../../../../com/google/code/play2/provider/api/Play2RunnerConfiguration.html" title="class in com.google.code.play2.provider.api">Play2RunnerConfiguration</a>&nbsp;configuration)</code>&nbsp;</td>
+</tr>
+<tr id="i3" class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../com/google/code/play2/provider/api/Play2Runner.html#supportsRunInDevMode--">supportsRunInDevMode</a></span>()</code>&nbsp;</td>
 </tr>
 </table>
 </li>
@@ -147,10 +160,43 @@ var activeTableTab = "activeTableTab";
 <a name="getServerMainClass--">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>getServerMainClass</h4>
 <pre><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getServerMainClass()</pre>
+</li>
+</ul>
+<a name="supportsRunInDevMode--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>supportsRunInDevMode</h4>
+<pre>boolean&nbsp;supportsRunInDevMode()</pre>
+</li>
+</ul>
+<a name="getPlayDocsModuleId-java.lang.String-java.lang.String-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getPlayDocsModuleId</h4>
+<pre><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getPlayDocsModuleId(<a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;scalaBinaryVersion,
+                           <a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;playVersion)</pre>
+</li>
+</ul>
+<a name="runInDevMode-com.google.code.play2.provider.api.Play2RunnerConfiguration-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>runInDevMode</h4>
+<pre><a href="../../../../../../com/google/code/play2/provider/api/Play2DevServer.html" title="interface in com.google.code.play2.provider.api">Play2DevServer</a>&nbsp;runInDevMode(<a href="../../../../../../com/google/code/play2/provider/api/Play2RunnerConfiguration.html" title="class in com.google.code.play2.provider.api">Play2RunnerConfiguration</a>&nbsp;configuration)
+                     throws <a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/Throwable.html?is-external=true" title="class or interface in java.lang">Throwable</a></pre>
+<dl>
+<dt><span class="throwsLabel">Throws:</span></dt>
+<dd><code><a href="http://docs.oracle.com/javase/1.6.0/docs/api/java/lang/Throwable.html?is-external=true" title="class or interface in java.lang">Throwable</a></code></dd>
+</dl>
 </li>
 </ul>
 </li>
@@ -181,7 +227,7 @@ var activeTableTab = "activeTableTab";
 <div class="subNav">
 <ul class="navList">
 <li><a href="../../../../../../com/google/code/play2/provider/api/Play2RoutesCompiler.html" title="interface in com.google.code.play2.provider.api"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
-<li><a href="../../../../../../com/google/code/play2/provider/api/Play2TemplateCompiler.html" title="interface in com.google.code.play2.provider.api"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+<li><a href="../../../../../../com/google/code/play2/provider/api/Play2RunnerConfiguration.html" title="class in com.google.code.play2.provider.api"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
 </ul>
 <ul class="navList">
 <li><a href="../../../../../../index.html?com/google/code/play2/provider/api/Play2Runner.html" target="_top">Frames</a></li>

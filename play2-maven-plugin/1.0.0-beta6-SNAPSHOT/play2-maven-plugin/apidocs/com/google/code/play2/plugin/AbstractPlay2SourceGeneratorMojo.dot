@@ -10,41 +10,41 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.Play2TemplateCompileMojo
-	c482 [label=<<table title="com.google.code.play2.plugin.Play2TemplateCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2TemplateCompileMojo.html">
+	c478 [label=<<table title="com.google.code.play2.plugin.Play2TemplateCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2TemplateCompileMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2TemplateCompileMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2TemplateCompileMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.Play2RoutesCompileMojo
-	c486 [label=<<table title="com.google.code.play2.plugin.Play2RoutesCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2RoutesCompileMojo.html">
+	c482 [label=<<table title="com.google.code.play2.plugin.Play2RoutesCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2RoutesCompileMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2RoutesCompileMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2RoutesCompileMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo
-	c498 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractPlay2SourceGeneratorMojo.html">
+	c496 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractPlay2SourceGeneratorMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2SourceGeneratorMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2SourceGeneratorMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo
-	c501 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2Mojo.html">
+	c498 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2Mojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2Mojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2Mojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.plugin.Play2TemplateCompileMojo extends com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo
-	c498:p -> c482:p [dir=back,arrowtail=empty];
+	c496:p -> c478:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.Play2RoutesCompileMojo extends com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo
-	c498:p -> c486:p [dir=back,arrowtail=empty];
+	c496:p -> c482:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c501:p -> c498:p [dir=back,arrowtail=empty];
+	c498:p -> c496:p [dir=back,arrowtail=empty];
 	// com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo NAVASSOC org.sonatype.plexus.build.incremental.BuildContext
-	c498:p -> c509:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c496:p -> c506:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo DEPEND com.google.code.play2.provider.api.SourceGenerationException
-	c498:p -> c510:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c496:p -> c507:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.sonatype.plexus.build.incremental.BuildContext
-	c509 [label=<<table title="org.sonatype.plexus.build.incremental.BuildContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c506 [label=<<table title="org.sonatype.plexus.build.incremental.BuildContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> BuildContext </td></tr>
@@ -52,7 +52,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.SourceGenerationException
-	c510 [label=<<table title="com.google.code.play2.provider.api.SourceGenerationException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c507 [label=<<table title="com.google.code.play2.provider.api.SourceGenerationException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SourceGenerationException </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.google.code.play2.provider.api </font></td></tr>
