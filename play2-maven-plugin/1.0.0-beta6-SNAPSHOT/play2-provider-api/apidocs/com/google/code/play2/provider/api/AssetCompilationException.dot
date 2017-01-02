@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.provider.api.Play2BuildException
-	c97 [label=<<table title="com.google.code.play2.provider.api.Play2BuildException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2BuildException.html">
+	c66 [label=<<table title="com.google.code.play2.provider.api.Play2BuildException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2BuildException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2BuildException </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2BuildException.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.AssetCompilationException
-	c103 [label=<<table title="com.google.code.play2.provider.api.AssetCompilationException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AssetCompilationException.html">
+	c77 [label=<<table title="com.google.code.play2.provider.api.AssetCompilationException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AssetCompilationException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AssetCompilationException </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AssetCompilationException.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.provider.api.AssetCompilationException extends com.google.code.play2.provider.api.Play2BuildException
-	c97:p -> c103:p [dir=back,arrowtail=empty];
+	c66:p -> c77:p [dir=back,arrowtail=empty];
 }
 

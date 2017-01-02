@@ -10,19 +10,10 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.provider.play25.run.AssetsClassLoader
-	c120 [label=<<table title="com.google.code.play2.provider.play25.run.AssetsClassLoader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AssetsClassLoader.html">
+	c119 [label=<<table title="com.google.code.play2.provider.play25.run.AssetsClassLoader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AssetsClassLoader.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AssetsClassLoader </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AssetsClassLoader.html", fontname="arial", fontcolor="black", fontsize=9.0];
-	// com.google.code.play2.provider.play25.run.AssetsClassLoader NAVASSOC com.google.code.play2.provider.api.Asset
-	c120:p -> c121:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// com.google.code.play2.provider.api.Asset
-	c121 [label=<<table title="com.google.code.play2.provider.api.Asset" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Asset </td></tr>
-<tr><td align="center" balign="center"><font point-size="7.0"> com.google.code.play2.provider.api </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 }
 

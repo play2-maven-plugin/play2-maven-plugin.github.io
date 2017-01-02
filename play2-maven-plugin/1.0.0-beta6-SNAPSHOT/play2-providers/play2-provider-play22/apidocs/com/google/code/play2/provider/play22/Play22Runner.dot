@@ -20,9 +20,9 @@ digraph G {
 	// com.google.code.play2.provider.play22.Play22Runner DEPEND com.google.code.play2.provider.api.Play2DevServer
 	c395:p -> c415:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.provider.play22.Play22Runner DEPEND com.google.code.play2.provider.api.Play2RunnerConfiguration
-	c395:p -> c417:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c395:p -> c416:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.provider.api.Play2RunnerConfiguration
-	c417 [label=<<table title="com.google.code.play2.provider.api.Play2RunnerConfiguration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c416 [label=<<table title="com.google.code.play2.provider.api.Play2RunnerConfiguration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2RunnerConfiguration </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.google.code.play2.provider.api </font></td></tr>

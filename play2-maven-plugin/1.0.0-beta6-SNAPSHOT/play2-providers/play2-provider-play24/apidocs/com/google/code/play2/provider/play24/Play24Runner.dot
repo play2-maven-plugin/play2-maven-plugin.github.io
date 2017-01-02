@@ -10,17 +10,17 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.provider.play24.Play24Runner
-	c434 [label=<<table title="com.google.code.play2.provider.play24.Play24Runner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play24Runner.html">
+	c432 [label=<<table title="com.google.code.play2.provider.play24.Play24Runner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play24Runner.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play24Runner </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play24Runner.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.provider.play24.Play24Runner implements com.google.code.play2.provider.api.Play2Runner
-	c453:p -> c434:p [dir=back,arrowtail=empty,style=dashed];
-	// com.google.code.play2.provider.play24.Play24Runner DEPEND com.google.code.play2.provider.api.Play2RunnerConfiguration
-	c434:p -> c454:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c451:p -> c432:p [dir=back,arrowtail=empty,style=dashed];
 	// com.google.code.play2.provider.play24.Play24Runner DEPEND com.google.code.play2.provider.api.Play2DevServer
-	c434:p -> c456:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c432:p -> c453:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.provider.play24.Play24Runner DEPEND com.google.code.play2.provider.api.Play2RunnerConfiguration
+	c432:p -> c454:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.provider.api.Play2RunnerConfiguration
 	c454 [label=<<table title="com.google.code.play2.provider.api.Play2RunnerConfiguration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
@@ -29,7 +29,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.Play2DevServer
-	c456 [label=<<table title="com.google.code.play2.provider.api.Play2DevServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c453 [label=<<table title="com.google.code.play2.provider.api.Play2DevServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2DevServer </td></tr>
@@ -37,7 +37,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.Play2Runner
-	c453 [label=<<table title="com.google.code.play2.provider.api.Play2Runner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c451 [label=<<table title="com.google.code.play2.provider.api.Play2Runner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2Runner </td></tr>

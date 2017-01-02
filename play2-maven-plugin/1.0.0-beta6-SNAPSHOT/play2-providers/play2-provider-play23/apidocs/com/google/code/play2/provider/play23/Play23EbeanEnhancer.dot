@@ -10,17 +10,17 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.provider.play23.Play23EbeanEnhancer
-	c230 [label=<<table title="com.google.code.play2.provider.play23.Play23EbeanEnhancer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play23EbeanEnhancer.html">
+	c228 [label=<<table title="com.google.code.play2.provider.play23.Play23EbeanEnhancer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play23EbeanEnhancer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play23EbeanEnhancer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play23EbeanEnhancer.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.provider.play23.Play23EbeanEnhancer implements com.google.code.play2.provider.api.Play2EbeanEnhancer
-	c241:p -> c230:p [dir=back,arrowtail=empty,style=dashed];
+	c239:p -> c228:p [dir=back,arrowtail=empty,style=dashed];
 	// com.google.code.play2.provider.play23.Play23EbeanEnhancer NAVASSOC com.avaje.ebean.enhance.agent.InputStreamTransform
-	c230:p -> c245:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c228:p -> c243:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.provider.api.Play2EbeanEnhancer
-	c241 [label=<<table title="com.google.code.play2.provider.api.Play2EbeanEnhancer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c239 [label=<<table title="com.google.code.play2.provider.api.Play2EbeanEnhancer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2EbeanEnhancer </td></tr>
@@ -28,7 +28,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.avaje.ebean.enhance.agent.InputStreamTransform
-	c245 [label=<<table title="com.avaje.ebean.enhance.agent.InputStreamTransform" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c243 [label=<<table title="com.avaje.ebean.enhance.agent.InputStreamTransform" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InputStreamTransform </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.avaje.ebean.enhance.agent </font></td></tr>

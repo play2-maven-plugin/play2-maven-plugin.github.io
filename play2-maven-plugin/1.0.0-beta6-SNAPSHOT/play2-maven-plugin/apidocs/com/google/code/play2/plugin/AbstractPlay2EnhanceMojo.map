@@ -3,8 +3,8 @@
 <area shape="rect" id="node1" href="./Play2RunMojo.html" title="&lt;TABLE&gt;" alt="" coords="488,204,605,252"/>
 <area shape="rect" id="c408" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html" title="org.apache.maven.project.MavenProject" alt="" coords="184,319,312,355"/>
 <area shape="rect" id="node11" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html" title="&lt;TABLE&gt;" alt="" coords="173,313,322,361"/>
-<area shape="rect" id="c409" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/artifact/Artifact.html" title="org.apache.maven.artifact.Artifact" alt="" coords="806,312,935,363"/>
-<area shape="rect" id="node13" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/artifact/Artifact.html" title="&lt;TABLE&gt;" alt="" coords="796,307,945,368"/>
+<area shape="rect" id="c409" href="http://maven.apache.org/ref/3.1.0/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html" title="org.apache.maven.artifact.Artifact" alt="" coords="806,312,935,363"/>
+<area shape="rect" id="node13" href="http://maven.apache.org/ref/3.1.0/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html" title="&lt;TABLE&gt;" alt="" coords="796,307,945,368"/>
 <area shape="rect" id="c384" href="./Play2EnhanceClassesMojo.html" title="com.google.code.play2.plugin.Play2EnhanceClassesMojo" alt="" coords="640,216,810,240"/>
 <area shape="rect" id="node2" href="./Play2EnhanceClassesMojo.html" title="&lt;TABLE&gt;" alt="" coords="629,204,821,252"/>
 <area shape="rect" id="c385" href="./Play2EbeanEnhanceMojo.html" title="com.google.code.play2.plugin.Play2EbeanEnhanceMojo" alt="" coords="40,216,200,240"/>

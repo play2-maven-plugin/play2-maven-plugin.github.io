@@ -161,12 +161,6 @@ digraph G {
 <tr><td align="center" balign="center"> AssetCompilationException </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AssetCompilationException.html", fontname="arial", fontcolor="black", fontsize=9.0];
-	// com.google.code.play2.provider.api.Asset
-	c23 [label=<<table title="com.google.code.play2.provider.api.Asset" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Asset.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Asset </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Asset.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.provider.api.TemplateCompilationException extends com.google.code.play2.provider.api.SourceGenerationException
 	c1:p -> c0:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.provider.api.SourceGenerationException extends com.google.code.play2.provider.api.Play2BuildException
@@ -175,8 +169,6 @@ digraph G {
 	c1:p -> c2:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.provider.api.AssetCompilationException extends com.google.code.play2.provider.api.Play2BuildException
 	c16:p -> c22:p [dir=back,arrowtail=empty];
-	// com.google.code.play2.provider.api.Play2RunnerConfiguration NAVASSOC com.google.code.play2.provider.api.Asset
-	c4:p -> c23:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.provider.api.Play2RunnerConfiguration NAVASSOC com.google.code.play2.provider.api.Play2Builder
 	c4:p -> c18:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.provider.api.Play2BuildFailure NAVASSOC com.google.code.play2.provider.api.Play2BuildException

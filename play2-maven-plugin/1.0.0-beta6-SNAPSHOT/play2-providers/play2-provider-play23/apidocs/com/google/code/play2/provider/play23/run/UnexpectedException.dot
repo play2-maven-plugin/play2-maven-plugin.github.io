@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.provider.play23.run.UnexpectedException
-	c555 [label=<<table title="com.google.code.play2.provider.play23.run.UnexpectedException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UnexpectedException.html">
+	c553 [label=<<table title="com.google.code.play2.provider.play23.run.UnexpectedException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UnexpectedException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UnexpectedException </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UnexpectedException.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.provider.play23.run.UnexpectedException extends play.api.PlayException
-	c565:p -> c555:p [dir=back,arrowtail=empty];
+	c563:p -> c553:p [dir=back,arrowtail=empty];
 	// play.api.PlayException
-	c565 [label=<<table title="play.api.PlayException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c563 [label=<<table title="play.api.PlayException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PlayException </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> play.api </font></td></tr>

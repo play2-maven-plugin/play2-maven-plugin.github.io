@@ -73,10 +73,6 @@
 </a>
 <h2 class="title">A</h2>
 <dl>
-<dt><a href="com/google/code/play2/provider/api/Asset.html" title="class in com.google.code.play2.provider.api"><span class="typeNameLink">Asset</span></a> - Class in <a href="com/google/code/play2/provider/api/package-summary.html">com.google.code.play2.provider.api</a></dt>
-<dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="com/google/code/play2/provider/api/Asset.html#Asset-java.lang.String-java.io.File-">Asset(String, File)</a></span> - Constructor for class com.google.code.play2.provider.api.<a href="com/google/code/play2/provider/api/Asset.html" title="class in com.google.code.play2.provider.api">Asset</a></dt>
-<dd>&nbsp;</dd>
 <dt><a href="com/google/code/play2/provider/api/AssetCompilationException.html" title="class in com.google.code.play2.provider.api"><span class="typeNameLink">AssetCompilationException</span></a> - Exception in <a href="com/google/code/play2/provider/api/package-summary.html">com.google.code.play2.provider.api</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="com/google/code/play2/provider/api/AssetCompilationException.html#AssetCompilationException-java.io.File-java.lang.String-int-int-">AssetCompilationException(File, String, int, int)</a></span> - Constructor for exception com.google.code.play2.provider.api.<a href="com/google/code/play2/provider/api/AssetCompilationException.html" title="class in com.google.code.play2.provider.api">AssetCompilationException</a></dt>
@@ -135,7 +131,11 @@
 <dl>
 <dt><span class="memberNameLink"><a href="com/google/code/play2/provider/api/Play2JavaEnhancer.html#generateAccessors-java.io.File-">generateAccessors(File)</a></span> - Method in interface com.google.code.play2.provider.api.<a href="com/google/code/play2/provider/api/Play2JavaEnhancer.html" title="interface in com.google.code.play2.provider.api">Play2JavaEnhancer</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="com/google/code/play2/provider/api/Play2RunnerConfiguration.html#getAssets--">getAssets()</a></span> - Method in class com.google.code.play2.provider.api.<a href="com/google/code/play2/provider/api/Play2RunnerConfiguration.html" title="class in com.google.code.play2.provider.api">Play2RunnerConfiguration</a></dt>
+<dt><span class="memberNameLink"><a href="com/google/code/play2/provider/api/Play2RunnerConfiguration.html#getAssetsDirectory--">getAssetsDirectory()</a></span> - Method in class com.google.code.play2.provider.api.<a href="com/google/code/play2/provider/api/Play2RunnerConfiguration.html" title="class in com.google.code.play2.provider.api">Play2RunnerConfiguration</a></dt>
+<dd>
+<div class="block">Returns ... .</div>
+</dd>
+<dt><span class="memberNameLink"><a href="com/google/code/play2/provider/api/Play2RunnerConfiguration.html#getAssetsPrefix--">getAssetsPrefix()</a></span> - Method in class com.google.code.play2.provider.api.<a href="com/google/code/play2/provider/api/Play2RunnerConfiguration.html" title="class in com.google.code.play2.provider.api">Play2RunnerConfiguration</a></dt>
 <dd>
 <div class="block">Returns ... .</div>
 </dd>
@@ -179,8 +179,6 @@
 <dd>
 <div class="block">Returns ... .</div>
 </dd>
-<dt><span class="memberNameLink"><a href="com/google/code/play2/provider/api/Asset.html#getDir--">getDir()</a></span> - Method in class com.google.code.play2.provider.api.<a href="com/google/code/play2/provider/api/Asset.html" title="class in com.google.code.play2.provider.api">Asset</a></dt>
-<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="com/google/code/play2/provider/api/Play2RunnerConfiguration.html#getDocsClasspath--">getDocsClasspath()</a></span> - Method in class com.google.code.play2.provider.api.<a href="com/google/code/play2/provider/api/Play2RunnerConfiguration.html" title="class in com.google.code.play2.provider.api">Play2RunnerConfiguration</a></dt>
 <dd>
 <div class="block">Returns ... .</div>
@@ -228,8 +226,6 @@
 <div class="block">Returns ... .</div>
 </dd>
 <dt><span class="memberNameLink"><a href="com/google/code/play2/provider/api/Play2Runner.html#getPlayDocsModuleId-java.lang.String-java.lang.String-">getPlayDocsModuleId(String, String)</a></span> - Method in interface com.google.code.play2.provider.api.<a href="com/google/code/play2/provider/api/Play2Runner.html" title="interface in com.google.code.play2.provider.api">Play2Runner</a></dt>
-<dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="com/google/code/play2/provider/api/Asset.html#getPrefix--">getPrefix()</a></span> - Method in class com.google.code.play2.provider.api.<a href="com/google/code/play2/provider/api/Asset.html" title="class in com.google.code.play2.provider.api">Asset</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="com/google/code/play2/provider/api/Play2Provider.html#getRoutesCompiler--">getRoutesCompiler()</a></span> - Method in interface com.google.code.play2.provider.api.<a href="com/google/code/play2/provider/api/Play2Provider.html" title="interface in com.google.code.play2.provider.api">Play2Provider</a></dt>
 <dd>&nbsp;</dd>
@@ -369,7 +365,11 @@
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="com/google/code/play2/provider/api/Play2TemplateCompiler.html#setAdditionalImports-java.util.List-">setAdditionalImports(List&lt;String&gt;)</a></span> - Method in interface com.google.code.play2.provider.api.<a href="com/google/code/play2/provider/api/Play2TemplateCompiler.html" title="interface in com.google.code.play2.provider.api">Play2TemplateCompiler</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="com/google/code/play2/provider/api/Play2RunnerConfiguration.html#setAssets-java.util.List-">setAssets(List&lt;Asset&gt;)</a></span> - Method in class com.google.code.play2.provider.api.<a href="com/google/code/play2/provider/api/Play2RunnerConfiguration.html" title="class in com.google.code.play2.provider.api">Play2RunnerConfiguration</a></dt>
+<dt><span class="memberNameLink"><a href="com/google/code/play2/provider/api/Play2RunnerConfiguration.html#setAssetsDirectory-java.io.File-">setAssetsDirectory(File)</a></span> - Method in class com.google.code.play2.provider.api.<a href="com/google/code/play2/provider/api/Play2RunnerConfiguration.html" title="class in com.google.code.play2.provider.api">Play2RunnerConfiguration</a></dt>
+<dd>
+<div class="block">Sets ... .</div>
+</dd>
+<dt><span class="memberNameLink"><a href="com/google/code/play2/provider/api/Play2RunnerConfiguration.html#setAssetsPrefix-java.lang.String-">setAssetsPrefix(String)</a></span> - Method in class com.google.code.play2.provider.api.<a href="com/google/code/play2/provider/api/Play2RunnerConfiguration.html" title="class in com.google.code.play2.provider.api">Play2RunnerConfiguration</a></dt>
 <dd>
 <div class="block">Sets ... .</div>
 </dd>
@@ -505,6 +505,6 @@
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2013&#x2013;2016. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2013&#x2013;2017. All rights reserved.</small></p>
 </body>
 </html>

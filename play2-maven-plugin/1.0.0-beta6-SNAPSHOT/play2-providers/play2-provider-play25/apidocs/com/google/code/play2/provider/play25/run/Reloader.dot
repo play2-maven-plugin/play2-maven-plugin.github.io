@@ -10,33 +10,33 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.provider.play25.run.ReloaderPlayDevServer
-	c512 [label=<<table title="com.google.code.play2.provider.play25.run.ReloaderPlayDevServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReloaderPlayDevServer.html">
+	c510 [label=<<table title="com.google.code.play2.provider.play25.run.ReloaderPlayDevServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReloaderPlayDevServer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ReloaderPlayDevServer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ReloaderPlayDevServer.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.play25.run.ReloaderApplicationClassLoaderProvider
-	c513 [label=<<table title="com.google.code.play2.provider.play25.run.ReloaderApplicationClassLoaderProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReloaderApplicationClassLoaderProvider.html">
+	c511 [label=<<table title="com.google.code.play2.provider.play25.run.ReloaderApplicationClassLoaderProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReloaderApplicationClassLoaderProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ReloaderApplicationClassLoaderProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ReloaderApplicationClassLoaderProvider.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.play25.run.Reloader
-	c514 [label=<<table title="com.google.code.play2.provider.play25.run.Reloader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Reloader.html">
+	c512 [label=<<table title="com.google.code.play2.provider.play25.run.Reloader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Reloader.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Reloader </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Reloader.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.provider.play25.run.Reloader implements play.core.BuildLink
-	c519:p -> c514:p [dir=back,arrowtail=empty,style=dashed];
+	c517:p -> c512:p [dir=back,arrowtail=empty,style=dashed];
 	// com.google.code.play2.provider.play25.run.ReloaderPlayDevServer NAVASSOC com.google.code.play2.provider.play25.run.Reloader
-	c512:p -> c514:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c510:p -> c512:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.provider.play25.run.ReloaderApplicationClassLoaderProvider NAVASSOC com.google.code.play2.provider.play25.run.Reloader
-	c513:p -> c514:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c511:p -> c512:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.provider.play25.run.Reloader NAVASSOC com.google.code.play2.provider.api.Play2Builder
-	c514:p -> c521:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c512:p -> c519:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.provider.api.Play2Builder
-	c521 [label=<<table title="com.google.code.play2.provider.api.Play2Builder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c519 [label=<<table title="com.google.code.play2.provider.api.Play2Builder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2Builder </td></tr>
@@ -44,7 +44,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// play.core.BuildLink
-	c519 [label=<<table title="play.core.BuildLink" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c517 [label=<<table title="play.core.BuildLink" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> BuildLink </td></tr>

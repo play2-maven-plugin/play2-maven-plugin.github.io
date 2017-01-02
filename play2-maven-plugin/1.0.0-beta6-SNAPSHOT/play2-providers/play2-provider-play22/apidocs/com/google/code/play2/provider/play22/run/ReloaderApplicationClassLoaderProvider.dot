@@ -10,23 +10,23 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.provider.play22.run.ReloaderApplicationClassLoaderProvider
-	c474 [label=<<table title="com.google.code.play2.provider.play22.run.ReloaderApplicationClassLoaderProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ReloaderApplicationClassLoaderProvider.html">
+	c473 [label=<<table title="com.google.code.play2.provider.play22.run.ReloaderApplicationClassLoaderProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ReloaderApplicationClassLoaderProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ReloaderApplicationClassLoaderProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ReloaderApplicationClassLoaderProvider.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.play22.run.Reloader
-	c475 [label=<<table title="com.google.code.play2.provider.play22.run.Reloader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Reloader.html">
+	c474 [label=<<table title="com.google.code.play2.provider.play22.run.Reloader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Reloader.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Reloader </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Reloader.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.provider.play22.run.ReloaderApplicationClassLoaderProvider implements play.runsupport.classloader.ApplicationClassLoaderProvider
-	c479:p -> c474:p [dir=back,arrowtail=empty,style=dashed];
+	c478:p -> c473:p [dir=back,arrowtail=empty,style=dashed];
 	// com.google.code.play2.provider.play22.run.ReloaderApplicationClassLoaderProvider NAVASSOC com.google.code.play2.provider.play22.run.Reloader
-	c474:p -> c475:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c473:p -> c474:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// play.runsupport.classloader.ApplicationClassLoaderProvider
-	c479 [label=<<table title="play.runsupport.classloader.ApplicationClassLoaderProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c478 [label=<<table title="play.runsupport.classloader.ApplicationClassLoaderProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ApplicationClassLoaderProvider </td></tr>

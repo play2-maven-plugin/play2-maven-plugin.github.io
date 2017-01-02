@@ -10,17 +10,17 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.provider.play25.Play25LessCompiler
-	c357 [label=<<table title="com.google.code.play2.provider.play25.Play25LessCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play25LessCompiler.html">
+	c355 [label=<<table title="com.google.code.play2.provider.play25.Play25LessCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play25LessCompiler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play25LessCompiler </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play25LessCompiler.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.provider.play25.Play25LessCompiler implements com.google.code.play2.provider.api.Play2LessCompiler
-	c374:p -> c357:p [dir=back,arrowtail=empty,style=dashed];
+	c372:p -> c355:p [dir=back,arrowtail=empty,style=dashed];
 	// com.google.code.play2.provider.play25.Play25LessCompiler DEPEND com.google.code.play2.provider.api.LessCompilationResult
-	c357:p -> c375:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c355:p -> c373:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.provider.api.Play2LessCompiler
-	c374 [label=<<table title="com.google.code.play2.provider.api.Play2LessCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c372 [label=<<table title="com.google.code.play2.provider.api.Play2LessCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2LessCompiler </td></tr>
@@ -28,7 +28,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.LessCompilationResult
-	c375 [label=<<table title="com.google.code.play2.provider.api.LessCompilationResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c373 [label=<<table title="com.google.code.play2.provider.api.LessCompilationResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> LessCompilationResult </td></tr>

@@ -10,25 +10,25 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.provider.play22.run.ReloaderPlayDevServer
-	c493 [label=<<table title="com.google.code.play2.provider.play22.run.ReloaderPlayDevServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ReloaderPlayDevServer.html">
+	c492 [label=<<table title="com.google.code.play2.provider.play22.run.ReloaderPlayDevServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ReloaderPlayDevServer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ReloaderPlayDevServer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ReloaderPlayDevServer.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.play22.run.Reloader
-	c495 [label=<<table title="com.google.code.play2.provider.play22.run.Reloader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Reloader.html">
+	c494 [label=<<table title="com.google.code.play2.provider.play22.run.Reloader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Reloader.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Reloader </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Reloader.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.provider.play22.run.ReloaderPlayDevServer implements com.google.code.play2.provider.api.Play2DevServer
-	c499:p -> c493:p [dir=back,arrowtail=empty,style=dashed];
+	c498:p -> c492:p [dir=back,arrowtail=empty,style=dashed];
 	// com.google.code.play2.provider.play22.run.ReloaderPlayDevServer NAVASSOC play.core.server.ServerWithStop
-	c493:p -> c500:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c492:p -> c499:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.provider.play22.run.ReloaderPlayDevServer NAVASSOC com.google.code.play2.provider.play22.run.Reloader
-	c493:p -> c495:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c492:p -> c494:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// play.core.server.ServerWithStop
-	c500 [label=<<table title="play.core.server.ServerWithStop" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c499 [label=<<table title="play.core.server.ServerWithStop" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ServerWithStop </td></tr>
@@ -36,7 +36,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.Play2DevServer
-	c499 [label=<<table title="com.google.code.play2.provider.api.Play2DevServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c498 [label=<<table title="com.google.code.play2.provider.api.Play2DevServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2DevServer </td></tr>

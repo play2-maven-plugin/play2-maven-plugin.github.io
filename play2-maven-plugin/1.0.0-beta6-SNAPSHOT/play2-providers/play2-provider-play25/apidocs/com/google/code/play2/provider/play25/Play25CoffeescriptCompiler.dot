@@ -10,17 +10,17 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.provider.play25.Play25CoffeescriptCompiler
-	c196 [label=<<table title="com.google.code.play2.provider.play25.Play25CoffeescriptCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play25CoffeescriptCompiler.html">
+	c194 [label=<<table title="com.google.code.play2.provider.play25.Play25CoffeescriptCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play25CoffeescriptCompiler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play25CoffeescriptCompiler </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play25CoffeescriptCompiler.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.provider.play25.Play25CoffeescriptCompiler implements com.google.code.play2.provider.api.Play2CoffeescriptCompiler
-	c207:p -> c196:p [dir=back,arrowtail=empty,style=dashed];
+	c205:p -> c194:p [dir=back,arrowtail=empty,style=dashed];
 	// com.google.code.play2.provider.play25.Play25CoffeescriptCompiler DEPEND com.google.code.play2.provider.api.CoffeescriptCompilationResult
-	c196:p -> c208:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c194:p -> c206:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.provider.api.CoffeescriptCompilationResult
-	c208 [label=<<table title="com.google.code.play2.provider.api.CoffeescriptCompilationResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c206 [label=<<table title="com.google.code.play2.provider.api.CoffeescriptCompilationResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> CoffeescriptCompilationResult </td></tr>
@@ -28,7 +28,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.Play2CoffeescriptCompiler
-	c207 [label=<<table title="com.google.code.play2.provider.api.Play2CoffeescriptCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c205 [label=<<table title="com.google.code.play2.provider.api.Play2CoffeescriptCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2CoffeescriptCompiler </td></tr>
