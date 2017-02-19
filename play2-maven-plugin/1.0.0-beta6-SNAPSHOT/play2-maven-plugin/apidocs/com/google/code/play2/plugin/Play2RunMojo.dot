@@ -10,43 +10,43 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.Play2RunMojo
-	c926 [label=<<table title="com.google.code.play2.plugin.Play2RunMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play2RunMojo.html">
+	c932 [label=<<table title="com.google.code.play2.plugin.Play2RunMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play2RunMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2RunMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2RunMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo
-	c944 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2EnhanceMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2EnhanceMojo.html">
+	c950 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2EnhanceMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2EnhanceMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2EnhanceMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2EnhanceMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.plugin.Play2RunMojo extends com.google.code.play2.plugin.AbstractPlay2EnhanceMojo
-	c944:p -> c926:p [dir=back,arrowtail=empty];
+	c950:p -> c932:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.Play2RunMojo implements org.codehaus.plexus.personality.plexus.lifecycle.phase.Contextualizable
-	c951:p -> c926:p [dir=back,arrowtail=empty,style=dashed];
+	c957:p -> c932:p [dir=back,arrowtail=empty,style=dashed];
 	// com.google.code.play2.plugin.Play2RunMojo NAVASSOC org.apache.maven.lifecycle.LifecycleExecutor
-	c926:p -> c952:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c932:p -> c958:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.Play2RunMojo NAVASSOC org.codehaus.plexus.PlexusContainer
-	c926:p -> c953:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c932:p -> c959:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.Play2RunMojo NAVASSOC com.google.code.play2.watcher.api.FileWatchService
-	c926:p -> c954:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c932:p -> c960:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo NAVASSOC org.apache.maven.artifact.Artifact
-	c944:p -> c955:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c950:p -> c961:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.Play2RunMojo DEPEND org.codehaus.plexus.context.Context
-	c926:p -> c956:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.Play2RunMojo DEPEND org.apache.maven.artifact.Artifact
-	c926:p -> c955:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.Play2RunMojo DEPEND com.google.code.play2.watcher.api.FileWatchService
-	c926:p -> c954:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c932:p -> c962:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.Play2RunMojo DEPEND org.apache.maven.project.MavenProject
-	c926:p -> c957:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.artifact.Artifact
-	c944:p -> c955:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c932:p -> c963:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.Play2RunMojo DEPEND org.apache.maven.artifact.Artifact
+	c932:p -> c961:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.Play2RunMojo DEPEND com.google.code.play2.watcher.api.FileWatchService
+	c932:p -> c960:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.project.MavenProject
-	c944:p -> c957:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c950:p -> c963:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.artifact.Artifact
+	c950:p -> c961:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.apache.maven.lifecycle.LifecycleExecutor
-	c952 [label=<<table title="org.apache.maven.lifecycle.LifecycleExecutor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html">
+	c958 [label=<<table title="org.apache.maven.lifecycle.LifecycleExecutor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> LifecycleExecutor </td></tr>
@@ -54,14 +54,14 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.project.MavenProject
-	c957 [label=<<table title="org.apache.maven.project.MavenProject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html">
+	c963 [label=<<table title="org.apache.maven.project.MavenProject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MavenProject </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.project </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.codehaus.plexus.personality.plexus.lifecycle.phase.Contextualizable
-	c951 [label=<<table title="org.codehaus.plexus.personality.plexus.lifecycle.phase.Contextualizable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c957 [label=<<table title="org.codehaus.plexus.personality.plexus.lifecycle.phase.Contextualizable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Contextualizable </td></tr>
@@ -69,15 +69,15 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.artifact.Artifact
-	c955 [label=<<table title="org.apache.maven.artifact.Artifact" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html">
+	c961 [label=<<table title="org.apache.maven.artifact.Artifact" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/artifact/Artifact.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Artifact </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.artifact </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven.apache.org/ref/3.1.0/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/artifact/Artifact.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.watcher.api.FileWatchService
-	c954 [label=<<table title="com.google.code.play2.watcher.api.FileWatchService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c960 [label=<<table title="com.google.code.play2.watcher.api.FileWatchService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> FileWatchService </td></tr>
@@ -85,7 +85,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.codehaus.plexus.PlexusContainer
-	c953 [label=<<table title="org.codehaus.plexus.PlexusContainer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c959 [label=<<table title="org.codehaus.plexus.PlexusContainer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> PlexusContainer </td></tr>
@@ -93,7 +93,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.codehaus.plexus.context.Context
-	c956 [label=<<table title="org.codehaus.plexus.context.Context" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c962 [label=<<table title="org.codehaus.plexus.context.Context" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Context </td></tr>

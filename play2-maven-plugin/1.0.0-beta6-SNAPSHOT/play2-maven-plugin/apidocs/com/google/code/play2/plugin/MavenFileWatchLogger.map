@@ -1,7 +1,7 @@
 <map id="G" name="G">
-<area shape="rect" id="c607" href="./MavenFileWatchLogger.html" title="com.google.code.play2.plugin.MavenFileWatchLogger" alt="" coords="25,127,172,151"/>
+<area shape="rect" id="c612" href="./MavenFileWatchLogger.html" title="com.google.code.play2.plugin.MavenFileWatchLogger" alt="" coords="25,127,172,151"/>
 <area shape="rect" id="node1" href="./MavenFileWatchLogger.html" title="&lt;TABLE&gt;" alt="" coords="15,115,183,163"/>
-<area shape="rect" id="c623" href="http://maven.apache.org/ref/3.1.0/maven-plugin-api/apidocs/org/apache/maven/plugin/logging/Log.html" title="org.apache.maven.plugin.logging.Log" alt="" coords="21,216,177,267"/>
+<area shape="rect" id="c628" href="http://maven.apache.org/ref/3.1.0/maven-plugin-api/apidocs/org/apache/maven/plugin/logging/Log.html" title="org.apache.maven.plugin.logging.Log" alt="" coords="21,216,177,267"/>
 <area shape="rect" id="node5" href="http://maven.apache.org/ref/3.1.0/maven-plugin-api/apidocs/org/apache/maven/plugin/logging/Log.html" title="&lt;TABLE&gt;" alt="" coords="11,211,187,272"/>
 <area shape="rect" id="node2" href="null" title="&lt;TABLE&gt;" alt="" coords="5,5,192,67"/>
 </map>

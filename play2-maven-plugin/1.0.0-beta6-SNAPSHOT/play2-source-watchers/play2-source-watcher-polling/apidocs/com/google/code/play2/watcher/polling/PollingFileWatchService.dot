@@ -17,9 +17,9 @@ digraph G {
 		</table>>, URL="./PollingFileWatchService.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.watcher.polling.PollingFileWatchService extends com.google.code.play2.watcher.api.AbstractFileWatchService
 	c19:p -> c8:p [dir=back,arrowtail=empty];
-	// com.google.code.play2.watcher.polling.PollingFileWatchService DEPEND com.google.code.play2.watcher.api.FileWatcher
-	c8:p -> c21:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.watcher.polling.PollingFileWatchService DEPEND com.google.code.play2.watcher.api.FileWatchLogger
+	c8:p -> c21:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.watcher.polling.PollingFileWatchService DEPEND com.google.code.play2.watcher.api.FileWatcher
 	c8:p -> c23:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.watcher.polling.PollingFileWatchService DEPEND com.google.code.play2.watcher.api.FileWatchCallback
 	c8:p -> c24:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
@@ -31,7 +31,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.watcher.api.FileWatcher
-	c21 [label=<<table title="com.google.code.play2.watcher.api.FileWatcher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c23 [label=<<table title="com.google.code.play2.watcher.api.FileWatcher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> FileWatcher </td></tr>
@@ -39,7 +39,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.watcher.api.FileWatchLogger
-	c23 [label=<<table title="com.google.code.play2.watcher.api.FileWatchLogger" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c21 [label=<<table title="com.google.code.play2.watcher.api.FileWatchLogger" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> FileWatchLogger </td></tr>
