@@ -33,18 +33,18 @@ digraph G {
 	c932:p -> c960:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo NAVASSOC org.apache.maven.artifact.Artifact
 	c950:p -> c961:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// com.google.code.play2.plugin.Play2RunMojo DEPEND org.apache.maven.artifact.Artifact
+	c932:p -> c961:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.Play2RunMojo DEPEND org.codehaus.plexus.context.Context
 	c932:p -> c962:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.Play2RunMojo DEPEND org.apache.maven.project.MavenProject
 	c932:p -> c963:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.Play2RunMojo DEPEND org.apache.maven.artifact.Artifact
-	c932:p -> c961:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.Play2RunMojo DEPEND com.google.code.play2.watcher.api.FileWatchService
 	c932:p -> c960:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.project.MavenProject
-	c950:p -> c963:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.artifact.Artifact
 	c950:p -> c961:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.project.MavenProject
+	c950:p -> c963:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.apache.maven.lifecycle.LifecycleExecutor
 	c958 [label=<<table title="org.apache.maven.lifecycle.LifecycleExecutor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">

@@ -28,6 +28,6 @@
 <area shape="rect" id="node30" href="null" title="&lt;TABLE&gt;" alt="" coords="2531,197,2720,259"/>
 <area shape="rect" id="c451" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/artifact/Artifact.html" title="org.apache.maven.artifact.Artifact" alt="" coords="1265,312,1394,363"/>
 <area shape="rect" id="node32" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/artifact/Artifact.html" title="&lt;TABLE&gt;" alt="" coords="1255,307,1404,368"/>
-<area shape="rect" id="c444" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/plugin/AbstractMojo.html" title="org.apache.maven.plugin.AbstractMojo" alt="" coords="1649,11,1773,47"/>
-<area shape="rect" id="node11" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/plugin/AbstractMojo.html" title="&lt;TABLE&gt;" alt="" coords="1639,5,1783,53"/>
+<area shape="rect" id="c444" href="http://maven.apache.org/ref/3.1.0/maven-plugin-api/apidocs/org/apache/maven/plugin/AbstractMojo.html" title="org.apache.maven.plugin.AbstractMojo" alt="" coords="1649,11,1773,47"/>
+<area shape="rect" id="node11" href="http://maven.apache.org/ref/3.1.0/maven-plugin-api/apidocs/org/apache/maven/plugin/AbstractMojo.html" title="&lt;TABLE&gt;" alt="" coords="1639,5,1783,53"/>
 </map>

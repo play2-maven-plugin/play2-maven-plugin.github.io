@@ -93,10 +93,10 @@ digraph G {
 	c436:p -> c451:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND com.google.code.play2.provider.api.Play2Provider
 	c436:p -> c450:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.project.MavenProject
-	c437:p -> c445:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.artifact.Artifact
 	c437:p -> c451:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.project.MavenProject
+	c437:p -> c445:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractDependencyProcessingPlay2Mojo DEPEND org.apache.maven.artifact.Artifact
 	c440:p -> c451:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.provider.api.Play2Provider
@@ -154,11 +154,11 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://maven.apache.org/ref/3.1.0/maven-artifact/apidocs/org/apache/maven/repository/RepositorySystem.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.plugin.AbstractMojo
-	c444 [label=<<table title="org.apache.maven.plugin.AbstractMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/plugin/AbstractMojo.html">
+	c444 [label=<<table title="org.apache.maven.plugin.AbstractMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-plugin-api/apidocs/org/apache/maven/plugin/AbstractMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractMojo </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.plugin </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/plugin/AbstractMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="http://maven.apache.org/ref/3.1.0/maven-plugin-api/apidocs/org/apache/maven/plugin/AbstractMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 }
 

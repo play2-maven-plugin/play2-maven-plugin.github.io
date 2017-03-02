@@ -33,16 +33,16 @@ digraph G {
 	c478:p -> c471:p [dir=back,arrowtail=empty];
 	// com.google.code.play2.plugin.AbstractPlay2StartServerMojo DEPEND org.apache.tools.ant.taskdefs.Java
 	c469:p -> c480:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractPlay2ServerMojo DEPEND org.apache.tools.ant.taskdefs.Java
-	c471:p -> c480:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2ServerMojo DEPEND org.apache.tools.ant.Project
 	c471:p -> c481:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2ServerMojo DEPEND org.apache.tools.ant.types.Path
 	c471:p -> c482:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo DEPEND org.apache.tools.ant.taskdefs.Java
-	c478:p -> c480:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.AbstractPlay2ServerMojo DEPEND org.apache.tools.ant.taskdefs.Java
+	c471:p -> c480:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo DEPEND org.apache.tools.ant.Project
 	c478:p -> c481:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo DEPEND org.apache.tools.ant.taskdefs.Java
+	c478:p -> c480:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.apache.tools.ant.types.Path
 	c482 [label=<<table title="org.apache.tools.ant.types.Path" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://play2-maven-plugin.github.io/external-apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/types/Path.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
