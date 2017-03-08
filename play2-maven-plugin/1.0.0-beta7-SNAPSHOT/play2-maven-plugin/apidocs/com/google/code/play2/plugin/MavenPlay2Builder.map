@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="c642" href="./MavenPlay2Builder.html" title="com.google.code.play2.plugin.MavenPlay2Builder" alt="" coords="664,127,787,151"/>
+<area shape="rect" id="node1" href="./MavenPlay2Builder.html" title="&lt;TABLE&gt;" alt="" coords="653,115,797,163"/>
+<area shape="rect" id="c660" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html" title="org.apache.maven.project.MavenProject" alt="" coords="16,223,144,259"/>
+<area shape="rect" id="node7" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html" title="&lt;TABLE&gt;" alt="" coords="5,217,155,265"/>
+<area shape="rect" id="c661" href="http://maven.apache.org/ref/3.1.0/maven-plugin-api/apidocs/org/apache/maven/plugin/logging/Log.html" title="org.apache.maven.plugin.logging.Log" alt="" coords="189,216,345,267"/>
+<area shape="rect" id="node9" href="http://maven.apache.org/ref/3.1.0/maven-plugin-api/apidocs/org/apache/maven/plugin/logging/Log.html" title="&lt;TABLE&gt;" alt="" coords="179,211,355,272"/>
+<area shape="rect" id="c662" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/execution/MavenSession.html" title="org.apache.maven.execution.MavenSession" alt="" coords="389,223,529,259"/>
+<area shape="rect" id="node11" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/execution/MavenSession.html" title="&lt;TABLE&gt;" alt="" coords="379,217,539,265"/>
+<area shape="rect" id="c663" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html" title="org.apache.maven.lifecycle.LifecycleExecutor" alt="" coords="573,216,709,267"/>
+<area shape="rect" id="node13" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html" title="&lt;TABLE&gt;" alt="" coords="563,211,720,272"/>
+<area shape="rect" id="node15" href="null" title="&lt;TABLE&gt;" alt="" coords="744,211,875,272"/>
+<area shape="rect" id="c665" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-rc1/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/AnalysisProcessor.html" title="com.google.code.sbt.compiler.api.AnalysisProcessor" alt="" coords="909,216,1067,267"/>
+<area shape="rect" id="node17" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-rc1/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/AnalysisProcessor.html" title="&lt;TABLE&gt;" alt="" coords="899,211,1077,272"/>
+<area shape="rect" id="node19" href="null" title="&lt;TABLE&gt;" alt="" coords="1101,211,1288,272"/>
+<area shape="rect" id="node21" href="null" title="&lt;TABLE&gt;" alt="" coords="1312,211,1499,272"/>
+<area shape="rect" id="node24" href="null" title="&lt;TABLE&gt;" alt="" coords="1523,217,1712,265"/>
+<area shape="rect" id="node2" href="null" title="&lt;TABLE&gt;" alt="" coords="525,5,715,67"/>
+<area shape="rect" id="node4" href="null" title="&lt;TABLE&gt;" alt="" coords="739,5,925,67"/>
+</map>
