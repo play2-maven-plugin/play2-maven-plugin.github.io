@@ -153,26 +153,20 @@ digraph G {
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2AssetsCompileMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2AssetsCompileMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
-	// com.google.code.play2.plugin.AbstractDependencyProcessingPlay2Mojo
-	c24 [label=<<table title="com.google.code.play2.plugin.AbstractDependencyProcessingPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractDependencyProcessingPlay2Mojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="arial italic"> AbstractDependencyProcessingPlay2Mojo </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./AbstractDependencyProcessingPlay2Mojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractArchivingMojo
-	c25 [label=<<table title="com.google.code.play2.plugin.AbstractArchivingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractArchivingMojo.html">
+	c24 [label=<<table title="com.google.code.play2.plugin.AbstractArchivingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractArchivingMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractArchivingMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractArchivingMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo
-	c26 [label=<<table title="com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractAntJavaBasedPlay2Mojo.html">
+	c25 [label=<<table title="com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractAntJavaBasedPlay2Mojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractAntJavaBasedPlay2Mojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractAntJavaBasedPlay2Mojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo.JavaRunnable
-	c27 [label=<<table title="com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo.JavaRunnable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractAntJavaBasedPlay2Mojo.JavaRunnable.html">
+	c26 [label=<<table title="com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo.JavaRunnable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractAntJavaBasedPlay2Mojo.JavaRunnable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JavaRunnable </td></tr>
 		</table></td></tr>
@@ -208,18 +202,16 @@ digraph G {
 	//com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
 	c20:p -> c18:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractPlay2ServerMojo extends com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo
-	c26:p -> c19:p [dir=back,arrowtail=empty];
+	c25:p -> c19:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractPlay2EnhanceMojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
 	c20:p -> c21:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractPlay2DistMojo extends com.google.code.play2.plugin.AbstractArchivingMojo
-	c25:p -> c22:p [dir=back,arrowtail=empty];
+	c24:p -> c22:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractPlay2AssetsCompileMojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
 	c20:p -> c23:p [dir=back,arrowtail=empty];
-	//com.google.code.play2.plugin.AbstractDependencyProcessingPlay2Mojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c20:p -> c24:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractArchivingMojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c20:p -> c25:p [dir=back,arrowtail=empty];
+	c20:p -> c24:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c20:p -> c26:p [dir=back,arrowtail=empty];
+	c20:p -> c25:p [dir=back,arrowtail=empty];
 }
 

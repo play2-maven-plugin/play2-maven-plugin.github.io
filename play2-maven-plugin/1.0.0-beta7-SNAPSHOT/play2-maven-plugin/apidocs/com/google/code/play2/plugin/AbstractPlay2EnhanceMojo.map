@@ -1,18 +1,18 @@
 <map id="G" name="G">
-<area shape="rect" id="c382" href="./Play2RunMojo.html" title="com.google.code.play2.plugin.Play2RunMojo" alt="" coords="498,216,595,240"/>
+<area shape="rect" id="c346" href="./Play2RunMojo.html" title="com.google.code.play2.plugin.Play2RunMojo" alt="" coords="498,216,595,240"/>
 <area shape="rect" id="node1" href="./Play2RunMojo.html" title="&lt;TABLE&gt;" alt="" coords="488,204,605,252"/>
-<area shape="rect" id="c409" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html" title="org.apache.maven.project.MavenProject" alt="" coords="184,319,312,355"/>
+<area shape="rect" id="c372" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html" title="org.apache.maven.project.MavenProject" alt="" coords="184,319,312,355"/>
 <area shape="rect" id="node11" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html" title="&lt;TABLE&gt;" alt="" coords="173,313,322,361"/>
-<area shape="rect" id="c410" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/artifact/Artifact.html" title="org.apache.maven.artifact.Artifact" alt="" coords="806,312,935,363"/>
-<area shape="rect" id="node13" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/artifact/Artifact.html" title="&lt;TABLE&gt;" alt="" coords="796,307,945,368"/>
-<area shape="rect" id="c385" href="./Play2EnhanceClassesMojo.html" title="com.google.code.play2.plugin.Play2EnhanceClassesMojo" alt="" coords="640,216,810,240"/>
+<area shape="rect" id="c373" href="http://maven.apache.org/ref/3.1.0/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html" title="org.apache.maven.artifact.Artifact" alt="" coords="806,312,935,363"/>
+<area shape="rect" id="node13" href="http://maven.apache.org/ref/3.1.0/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html" title="&lt;TABLE&gt;" alt="" coords="796,307,945,368"/>
+<area shape="rect" id="c349" href="./Play2EnhanceClassesMojo.html" title="com.google.code.play2.plugin.Play2EnhanceClassesMojo" alt="" coords="640,216,810,240"/>
 <area shape="rect" id="node2" href="./Play2EnhanceClassesMojo.html" title="&lt;TABLE&gt;" alt="" coords="629,204,821,252"/>
-<area shape="rect" id="c386" href="./Play2EbeanEnhanceMojo.html" title="com.google.code.play2.plugin.Play2EbeanEnhanceMojo" alt="" coords="40,216,200,240"/>
+<area shape="rect" id="c350" href="./Play2EbeanEnhanceMojo.html" title="com.google.code.play2.plugin.Play2EbeanEnhanceMojo" alt="" coords="40,216,200,240"/>
 <area shape="rect" id="node3" href="./Play2EbeanEnhanceMojo.html" title="&lt;TABLE&gt;" alt="" coords="29,204,210,252"/>
-<area shape="rect" id="c399" href="./AbstractPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractPlay2Mojo" alt="" coords="399,17,520,41"/>
+<area shape="rect" id="c363" href="./AbstractPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractPlay2Mojo" alt="" coords="399,17,520,41"/>
 <area shape="rect" id="node4" href="./AbstractPlay2Mojo.html" title="&lt;TABLE&gt;" alt="" coords="389,5,530,53"/>
-<area shape="rect" id="c400" href="./AbstractPlay2EnhanceMojo.html" title="com.google.code.play2.plugin.AbstractPlay2EnhanceMojo" alt="" coords="375,113,544,137"/>
+<area shape="rect" id="c364" href="./AbstractPlay2EnhanceMojo.html" title="com.google.code.play2.plugin.AbstractPlay2EnhanceMojo" alt="" coords="375,113,544,137"/>
 <area shape="rect" id="node5" href="./AbstractPlay2EnhanceMojo.html" title="&lt;TABLE&gt;" alt="" coords="365,101,554,149"/>
-<area shape="rect" id="c411" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-rc1/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/AnalysisProcessor.html" title="com.google.code.sbt.compiler.api.AnalysisProcessor" alt="" coords="295,203,454,253"/>
+<area shape="rect" id="c374" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-rc1/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/AnalysisProcessor.html" title="com.google.code.sbt.compiler.api.AnalysisProcessor" alt="" coords="295,203,454,253"/>
 <area shape="rect" id="node15" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-rc1/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/AnalysisProcessor.html" title="&lt;TABLE&gt;" alt="" coords="285,197,464,259"/>
 </map>
