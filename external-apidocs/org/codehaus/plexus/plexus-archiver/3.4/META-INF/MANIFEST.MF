@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: schulte
+Build-Jdk: 1.7.0_80
+Created-By: Apache Maven 3.4.0-SNAPSHOT
+Archiver-Version: Plexus Archiver
+
