@@ -17,9 +17,9 @@ digraph G {
 		</table>>, URL="./JDK7FileWatchService.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.watcher.jdk7.JDK7FileWatchService extends com.google.code.play2.watcher.api.AbstractFileWatchService
 	c20:p -> c7:p [dir=back,arrowtail=empty];
-	// com.google.code.play2.watcher.jdk7.JDK7FileWatchService DEPEND com.google.code.play2.watcher.api.FileWatcher
-	c7:p -> c22:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.watcher.jdk7.JDK7FileWatchService DEPEND com.google.code.play2.watcher.api.FileWatchCallback
+	c7:p -> c21:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.watcher.jdk7.JDK7FileWatchService DEPEND com.google.code.play2.watcher.api.FileWatcher
 	c7:p -> c23:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.watcher.api.AbstractFileWatchService
 	c20 [label=<<table title="com.google.code.play2.watcher.api.AbstractFileWatchService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
@@ -29,7 +29,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.watcher.api.FileWatcher
-	c22 [label=<<table title="com.google.code.play2.watcher.api.FileWatcher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c23 [label=<<table title="com.google.code.play2.watcher.api.FileWatcher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> FileWatcher </td></tr>
@@ -37,7 +37,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.watcher.api.FileWatchCallback
-	c23 [label=<<table title="com.google.code.play2.watcher.api.FileWatchCallback" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c21 [label=<<table title="com.google.code.play2.watcher.api.FileWatchCallback" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> FileWatchCallback </td></tr>

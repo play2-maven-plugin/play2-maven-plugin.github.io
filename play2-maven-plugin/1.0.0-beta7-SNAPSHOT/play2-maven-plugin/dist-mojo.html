@@ -256,77 +256,7 @@ Supported formats:
           
 <tr class="a">
             
-<td><b><a href="#mainModule">mainModule</a></b></td>
-            
-<td><tt>String</tt></td>
-            
-<td><tt>1.0.0</tt></td>
-            
-<td>Identifier of the module to prepare the distribution for. <br />
-<br />
-Important in multi-module projects with more than one
-<tt>play2</tt> modules to select for which one to prepare the
-distribution. <br />
-There are three supported formats: 
-
-<ul>
-
-<li><tt>artifactId</tt> or <tt>:artifactId</tt> - find
-first module with given <tt>artifactId</tt></li>
-
-<li><tt>groupId:artifactId</tt> - find module with given
-<tt>groupId</tt> and <tt>artifactId</tt></li>
-</ul>
-If not specified, all reactor modules with <tt>play2</tt>
-packaging will be selected. <br /><br /><b>User property is</b>: <tt>play2.mainModule</tt>.<br /></td>
-          </tr>
-          
-<tr class="b">
-            
-<td><b><a href="#playVersion">playVersion</a></b></td>
-            
-<td><tt>String</tt></td>
-            
-<td><tt>1.0.0</tt></td>
-            
-<td>Used to automatically select one of the &quot;well known&quot; Play!
-providers if no provider added explicitly as plugin's dependency.<br /><b>User property is</b>: <tt>play2.version</tt>.<br /></td>
-          </tr>
-          
-<tr class="a">
-            
-<td><b><a href="#prodSettings">prodSettings</a></b></td>
-            
-<td><tt>String</tt></td>
-            
-<td><tt>1.0.0</tt></td>
-            
-<td>Extra settings used only in production mode (like
-<tt>devSettings</tt> for development mode). <br />
-<br />
-Space-separated list of key=value pairs, e.g. <br />
-<tt>play.server.http.port=9001 play.server.https.port=9443</tt>
-<br /><br /><b>User property is</b>: <tt>play2.prodSettings</tt>.<br /></td>
-          </tr>
-          
-<tr class="b">
-            
-<td><b><a href="#serverJvmArgs">serverJvmArgs</a></b></td>
-            
-<td><tt>String</tt></td>
-            
-<td><tt>1.0.0</tt></td>
-            
-<td>Additional JVM arguments passed to Play! server's JVM <br />
-<br />
-Space-separated list of arguments, e.g. <br />
-<tt>-Xmx1024m -Dconfig.resource=application-prod.conf
--Dlogger.file=./conf/logback-prod.xml</tt> <br /><br /><b>User property is</b>: <tt>play2.serverJvmArgs</tt>.<br /></td>
-          </tr>
-          
-<tr class="a">
-            
-<td><b><a href="#tarLongFileMode">tarLongFileMode</a></b></td>
+<td><b><a href="#distTarLongFileMode">distTarLongFileMode</a></b></td>
             
 <td><tt>String</tt></td>
             
@@ -355,6 +285,76 @@ length</li>
 
 <li><tt>fail</tt> - build fails</li>
 </ul><br /><b>Default value is</b>: <tt>warn</tt>.<br /><b>User property is</b>: <tt>play2.distTarLongFileMode</tt>.<br /></td>
+          </tr>
+          
+<tr class="b">
+            
+<td><b><a href="#mainModule">mainModule</a></b></td>
+            
+<td><tt>String</tt></td>
+            
+<td><tt>1.0.0</tt></td>
+            
+<td>Identifier of the module to prepare the distribution for. <br />
+<br />
+Important in multi-module projects with more than one
+<tt>play2</tt> modules to select for which one to prepare the
+distribution. <br />
+There are three supported formats: 
+
+<ul>
+
+<li><tt>artifactId</tt> or <tt>:artifactId</tt> - find
+first module with given <tt>artifactId</tt></li>
+
+<li><tt>groupId:artifactId</tt> - find module with given
+<tt>groupId</tt> and <tt>artifactId</tt></li>
+</ul>
+If not specified, all reactor modules with <tt>play2</tt>
+packaging will be selected. <br /><br /><b>User property is</b>: <tt>play2.mainModule</tt>.<br /></td>
+          </tr>
+          
+<tr class="a">
+            
+<td><b><a href="#playVersion">playVersion</a></b></td>
+            
+<td><tt>String</tt></td>
+            
+<td><tt>1.0.0</tt></td>
+            
+<td>Used to automatically select one of the &quot;well known&quot; Play!
+providers if no provider added explicitly as plugin's dependency.<br /><b>User property is</b>: <tt>play2.version</tt>.<br /></td>
+          </tr>
+          
+<tr class="b">
+            
+<td><b><a href="#prodSettings">prodSettings</a></b></td>
+            
+<td><tt>String</tt></td>
+            
+<td><tt>1.0.0</tt></td>
+            
+<td>Extra settings used only in production mode (like
+<tt>devSettings</tt> for development mode). <br />
+<br />
+Space-separated list of key=value pairs, e.g. <br />
+<tt>play.server.http.port=9001 play.server.https.port=9443</tt>
+<br /><br /><b>User property is</b>: <tt>play2.prodSettings</tt>.<br /></td>
+          </tr>
+          
+<tr class="a">
+            
+<td><b><a href="#serverJvmArgs">serverJvmArgs</a></b></td>
+            
+<td><tt>String</tt></td>
+            
+<td><tt>1.0.0</tt></td>
+            
+<td>Additional JVM arguments passed to Play! server's JVM <br />
+<br />
+Space-separated list of arguments, e.g. <br />
+<tt>-Xmx1024m -Dconfig.resource=application-prod.conf
+-Dlogger.file=./conf/logback-prod.xml</tt> <br /><br /><b>User property is</b>: <tt>play2.serverJvmArgs</tt>.<br /></td>
           </tr>
         </table>
       </div>
@@ -524,6 +524,44 @@ Supported formats:
           
 <li><b>Default</b>: <tt>false</tt></li>
         </ul><hr />
+<p><b><a name="distTarLongFileMode">distTarLongFileMode</a>:</b></p>
+        
+<div>Sets the tar archiver behavior on file paths more than 100
+characters long. <br />
+Valid values: 
+
+<ul>
+
+<li><tt>warn</tt> - GNU extensions are used with warning</li>
+
+<li><tt>gnu</tt> - GNU extensions are used without warning</li>
+
+<li><tt>posix_warn</tt> - POSIX extensions are used with
+warning</li>
+
+<li><tt>posix</tt> - POSIX extensions are used without
+warning</li>
+
+<li><tt>truncate</tt> - paths are truncated to the maximum
+length</li>
+
+<li><tt>omit</tt> - paths are omitted from the archive</li>
+
+<li><tt>fail</tt> - build fails</li>
+</ul></div>
+        
+<ul>
+          
+<li><b>Type</b>: <tt>java.lang.String</tt></li>
+          
+<li><b>Since</b>: <tt>1.0.0</tt></li>
+          
+<li><b>Required</b>: <tt>No</tt></li>
+          
+<li><b>User Property</b>: <tt>play2.distTarLongFileMode</tt></li>
+          
+<li><b>Default</b>: <tt>warn</tt></li>
+        </ul><hr />
 <p><b><a name="mainModule">mainModule</a>:</b></p>
         
 <div>Identifier of the module to prepare the distribution for. <br />
@@ -605,44 +643,6 @@ Space-separated list of arguments, e.g. <br />
 <li><b>Required</b>: <tt>No</tt></li>
           
 <li><b>User Property</b>: <tt>play2.serverJvmArgs</tt></li>
-        </ul><hr />
-<p><b><a name="tarLongFileMode">tarLongFileMode</a>:</b></p>
-        
-<div>Sets the tar archiver behavior on file paths more than 100
-characters long. <br />
-Valid values: 
-
-<ul>
-
-<li><tt>warn</tt> - GNU extensions are used with warning</li>
-
-<li><tt>gnu</tt> - GNU extensions are used without warning</li>
-
-<li><tt>posix_warn</tt> - POSIX extensions are used with
-warning</li>
-
-<li><tt>posix</tt> - POSIX extensions are used without
-warning</li>
-
-<li><tt>truncate</tt> - paths are truncated to the maximum
-length</li>
-
-<li><tt>omit</tt> - paths are omitted from the archive</li>
-
-<li><tt>fail</tt> - build fails</li>
-</ul></div>
-        
-<ul>
-          
-<li><b>Type</b>: <tt>java.lang.String</tt></li>
-          
-<li><b>Since</b>: <tt>1.0.0</tt></li>
-          
-<li><b>Required</b>: <tt>No</tt></li>
-          
-<li><b>User Property</b>: <tt>play2.distTarLongFileMode</tt></li>
-          
-<li><b>Default</b>: <tt>warn</tt></li>
         </ul>
       </div>
     </div>
