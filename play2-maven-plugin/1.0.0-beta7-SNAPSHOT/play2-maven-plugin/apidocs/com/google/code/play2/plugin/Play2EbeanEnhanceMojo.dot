@@ -10,23 +10,23 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.Play2EbeanEnhanceMojo
-	c770 [label=<<table title="com.google.code.play2.plugin.Play2EbeanEnhanceMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play2EbeanEnhanceMojo.html">
+	c764 [label=<<table title="com.google.code.play2.plugin.Play2EbeanEnhanceMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play2EbeanEnhanceMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2EbeanEnhanceMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2EbeanEnhanceMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo
-	c784 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2EnhanceMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2EnhanceMojo.html">
+	c778 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2EnhanceMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2EnhanceMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2EnhanceMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2EnhanceMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.plugin.Play2EbeanEnhanceMojo extends com.google.code.play2.plugin.AbstractPlay2EnhanceMojo
-	c784:p -> c770:p [dir=back,arrowtail=empty];
+	c778:p -> c764:p [dir=back,arrowtail=empty];
 	// com.google.code.play2.plugin.Play2EbeanEnhanceMojo DEPEND com.typesafe.config.Config
-	c770:p -> c790:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c764:p -> c784:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.typesafe.config.Config
-	c790 [label=<<table title="com.typesafe.config.Config" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c784 [label=<<table title="com.typesafe.config.Config" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Config </td></tr>

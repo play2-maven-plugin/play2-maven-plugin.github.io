@@ -10,37 +10,37 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.MavenPlay2Builder
-	c598 [label=<<table title="com.google.code.play2.plugin.MavenPlay2Builder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MavenPlay2Builder.html">
+	c591 [label=<<table title="com.google.code.play2.plugin.MavenPlay2Builder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MavenPlay2Builder.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MavenPlay2Builder </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MavenPlay2Builder.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.plugin.MavenPlay2Builder implements com.google.code.play2.provider.api.Play2Builder
-	c613:p -> c598:p [dir=back,arrowtail=empty,style=dashed];
+	c606:p -> c591:p [dir=back,arrowtail=empty,style=dashed];
 	//com.google.code.play2.plugin.MavenPlay2Builder implements com.google.code.play2.watcher.api.FileWatchCallback
-	c614:p -> c598:p [dir=back,arrowtail=empty,style=dashed];
+	c607:p -> c591:p [dir=back,arrowtail=empty,style=dashed];
 	// com.google.code.play2.plugin.MavenPlay2Builder NAVASSOC org.apache.maven.project.MavenProject
-	c598:p -> c615:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c591:p -> c608:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.MavenPlay2Builder NAVASSOC org.apache.maven.plugin.logging.Log
-	c598:p -> c616:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c591:p -> c609:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.MavenPlay2Builder NAVASSOC org.apache.maven.execution.MavenSession
-	c598:p -> c617:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c591:p -> c610:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.MavenPlay2Builder NAVASSOC org.apache.maven.lifecycle.LifecycleExecutor
-	c598:p -> c618:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c591:p -> c611:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.MavenPlay2Builder NAVASSOC org.codehaus.plexus.PlexusContainer
-	c598:p -> c619:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c591:p -> c612:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.MavenPlay2Builder NAVASSOC com.google.code.sbt.compiler.api.AnalysisProcessor
-	c598:p -> c620:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c591:p -> c613:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.MavenPlay2Builder NAVASSOC com.google.code.play2.watcher.api.FileWatchService
-	c598:p -> c621:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c591:p -> c614:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.MavenPlay2Builder NAVASSOC com.google.code.play2.watcher.api.FileWatcher
-	c598:p -> c622:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c591:p -> c615:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.MavenPlay2Builder DEPEND com.google.code.play2.provider.api.Play2BuildException
-	c598:p -> c624:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c591:p -> c617:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.MavenPlay2Builder DEPEND org.apache.maven.project.MavenProject
-	c598:p -> c615:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c591:p -> c608:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.apache.maven.lifecycle.LifecycleExecutor
-	c618 [label=<<table title="org.apache.maven.lifecycle.LifecycleExecutor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html">
+	c611 [label=<<table title="org.apache.maven.lifecycle.LifecycleExecutor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> LifecycleExecutor </td></tr>
@@ -48,14 +48,14 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.project.MavenProject
-	c615 [label=<<table title="org.apache.maven.project.MavenProject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html">
+	c608 [label=<<table title="org.apache.maven.project.MavenProject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MavenProject </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.project </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/project/MavenProject.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.sbt.compiler.api.AnalysisProcessor
-	c620 [label=<<table title="com.google.code.sbt.compiler.api.AnalysisProcessor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-rc1/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/AnalysisProcessor.html">
+	c613 [label=<<table title="com.google.code.sbt.compiler.api.AnalysisProcessor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-rc1/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/AnalysisProcessor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> AnalysisProcessor </td></tr>
@@ -63,14 +63,14 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0-rc1/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/AnalysisProcessor.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.execution.MavenSession
-	c617 [label=<<table title="org.apache.maven.execution.MavenSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/execution/MavenSession.html">
+	c610 [label=<<table title="org.apache.maven.execution.MavenSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/execution/MavenSession.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MavenSession </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.execution </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/execution/MavenSession.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.watcher.api.FileWatchService
-	c621 [label=<<table title="com.google.code.play2.watcher.api.FileWatchService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c614 [label=<<table title="com.google.code.play2.watcher.api.FileWatchService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> FileWatchService </td></tr>
@@ -78,14 +78,14 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.Play2BuildException
-	c624 [label=<<table title="com.google.code.play2.provider.api.Play2BuildException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c617 [label=<<table title="com.google.code.play2.provider.api.Play2BuildException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2BuildException </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.google.code.play2.provider.api </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.watcher.api.FileWatcher
-	c622 [label=<<table title="com.google.code.play2.watcher.api.FileWatcher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c615 [label=<<table title="com.google.code.play2.watcher.api.FileWatcher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> FileWatcher </td></tr>
@@ -93,7 +93,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.Play2Builder
-	c613 [label=<<table title="com.google.code.play2.provider.api.Play2Builder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c606 [label=<<table title="com.google.code.play2.provider.api.Play2Builder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2Builder </td></tr>
@@ -101,7 +101,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.plugin.logging.Log
-	c616 [label=<<table title="org.apache.maven.plugin.logging.Log" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-plugin-api/apidocs/org/apache/maven/plugin/logging/Log.html">
+	c609 [label=<<table title="org.apache.maven.plugin.logging.Log" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-plugin-api/apidocs/org/apache/maven/plugin/logging/Log.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Log </td></tr>
@@ -109,7 +109,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://maven.apache.org/ref/3.1.0/maven-plugin-api/apidocs/org/apache/maven/plugin/logging/Log.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.watcher.api.FileWatchCallback
-	c614 [label=<<table title="com.google.code.play2.watcher.api.FileWatchCallback" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c607 [label=<<table title="com.google.code.play2.watcher.api.FileWatchCallback" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> FileWatchCallback </td></tr>
@@ -117,7 +117,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.codehaus.plexus.PlexusContainer
-	c619 [label=<<table title="org.codehaus.plexus.PlexusContainer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c612 [label=<<table title="org.codehaus.plexus.PlexusContainer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> PlexusContainer </td></tr>
