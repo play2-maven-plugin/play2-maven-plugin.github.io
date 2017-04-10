@@ -33,12 +33,12 @@ digraph G {
 	c872:p -> c899:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo NAVASSOC org.apache.maven.artifact.Artifact
 	c890:p -> c900:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// com.google.code.play2.plugin.Play2RunMojo DEPEND org.codehaus.plexus.context.Context
-	c872:p -> c901:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.Play2RunMojo DEPEND org.apache.maven.artifact.Artifact
-	c872:p -> c900:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.Play2RunMojo DEPEND com.google.code.play2.watcher.api.FileWatchService
 	c872:p -> c899:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.Play2RunMojo DEPEND org.apache.maven.artifact.Artifact
+	c872:p -> c900:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.Play2RunMojo DEPEND org.codehaus.plexus.context.Context
+	c872:p -> c901:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.artifact.Artifact
 	c890:p -> c900:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.apache.maven.lifecycle.LifecycleExecutor

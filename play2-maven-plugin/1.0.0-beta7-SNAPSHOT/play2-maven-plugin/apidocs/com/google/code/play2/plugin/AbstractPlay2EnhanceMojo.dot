@@ -55,10 +55,10 @@ digraph G {
 	c357:p -> c367:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.Play2RunMojo DEPEND org.apache.maven.artifact.Artifact
 	c339:p -> c366:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND org.apache.maven.project.MavenProject
-	c356:p -> c365:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND org.apache.maven.artifact.Artifact
 	c356:p -> c366:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND org.apache.maven.project.MavenProject
+	c356:p -> c365:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.artifact.Artifact
 	c357:p -> c366:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.project.MavenProject
