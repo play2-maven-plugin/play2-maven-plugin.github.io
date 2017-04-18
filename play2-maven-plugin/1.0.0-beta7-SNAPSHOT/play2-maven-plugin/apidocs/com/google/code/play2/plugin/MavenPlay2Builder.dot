@@ -35,10 +35,10 @@ digraph G {
 	c591:p -> c614:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.MavenPlay2Builder NAVASSOC com.google.code.play2.watcher.api.FileWatcher
 	c591:p -> c615:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// com.google.code.play2.plugin.MavenPlay2Builder DEPEND com.google.code.play2.provider.api.Play2BuildException
-	c591:p -> c617:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.MavenPlay2Builder DEPEND org.apache.maven.project.MavenProject
 	c591:p -> c608:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.MavenPlay2Builder DEPEND com.google.code.play2.provider.api.Play2BuildException
+	c591:p -> c617:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.apache.maven.lifecycle.LifecycleExecutor
 	c611 [label=<<table title="org.apache.maven.lifecycle.LifecycleExecutor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">

@@ -19,13 +19,13 @@
 <area shape="rect" id="node19" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/execution/MavenSession.html" title="&lt;TABLE&gt;" alt="" coords="1435,204,1595,252"/>
 <area shape="rect" id="c402" href="http://maven.apache.org/ref/3.1.0/maven-artifact/apidocs/org/apache/maven/artifact/repository/ArtifactRepository.html" title="org.apache.maven.artifact.repository.ArtifactRepository" alt="" coords="1629,203,1803,253"/>
 <area shape="rect" id="node21" href="http://maven.apache.org/ref/3.1.0/maven-artifact/apidocs/org/apache/maven/artifact/repository/ArtifactRepository.html" title="&lt;TABLE&gt;" alt="" coords="1619,197,1813,259"/>
-<area shape="rect" id="c403" href="http://maven.apache.org/ref/3.1.0/maven-artifact/apidocs/org/apache/maven/repository/RepositorySystem.html" title="org.apache.maven.repository.RepositorySystem" alt="" coords="1848,203,1989,253"/>
-<area shape="rect" id="node24" href="http://maven.apache.org/ref/3.1.0/maven-artifact/apidocs/org/apache/maven/repository/RepositorySystem.html" title="&lt;TABLE&gt;" alt="" coords="1837,197,2000,259"/>
-<area shape="rect" id="c404" href="http://maven.apache.org/ref/3.1.0/maven-artifact/apidocs/org/apache/maven/artifact/resolver/ResolutionErrorHandler.html" title="org.apache.maven.artifact.resolver.ResolutionErrorHandler" alt="" coords="2034,203,2201,253"/>
-<area shape="rect" id="node26" href="http://maven.apache.org/ref/3.1.0/maven-artifact/apidocs/org/apache/maven/artifact/resolver/ResolutionErrorHandler.html" title="&lt;TABLE&gt;" alt="" coords="2024,197,2211,259"/>
+<area shape="rect" id="c403" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/repository/RepositorySystem.html" title="org.apache.maven.repository.RepositorySystem" alt="" coords="1848,203,1989,253"/>
+<area shape="rect" id="node24" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/repository/RepositorySystem.html" title="&lt;TABLE&gt;" alt="" coords="1837,197,2000,259"/>
+<area shape="rect" id="c404" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/artifact/resolver/ResolutionErrorHandler.html" title="org.apache.maven.artifact.resolver.ResolutionErrorHandler" alt="" coords="2034,203,2201,253"/>
+<area shape="rect" id="node26" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/artifact/resolver/ResolutionErrorHandler.html" title="&lt;TABLE&gt;" alt="" coords="2024,197,2211,259"/>
 <area shape="rect" id="node28" href="null" title="&lt;TABLE&gt;" alt="" coords="2235,197,2424,259"/>
 <area shape="rect" id="c406" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/artifact/Artifact.html" title="org.apache.maven.artifact.Artifact" alt="" coords="1251,312,1381,363"/>
 <area shape="rect" id="node30" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/artifact/Artifact.html" title="&lt;TABLE&gt;" alt="" coords="1241,307,1391,368"/>
-<area shape="rect" id="c399" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/plugin/AbstractMojo.html" title="org.apache.maven.plugin.AbstractMojo" alt="" coords="1553,11,1677,47"/>
-<area shape="rect" id="node10" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/plugin/AbstractMojo.html" title="&lt;TABLE&gt;" alt="" coords="1543,5,1687,53"/>
+<area shape="rect" id="c399" href="http://maven.apache.org/ref/3.1.0/maven-plugin-api/apidocs/org/apache/maven/plugin/AbstractMojo.html" title="org.apache.maven.plugin.AbstractMojo" alt="" coords="1553,11,1677,47"/>
+<area shape="rect" id="node10" href="http://maven.apache.org/ref/3.1.0/maven-plugin-api/apidocs/org/apache/maven/plugin/AbstractMojo.html" title="&lt;TABLE&gt;" alt="" coords="1543,5,1687,53"/>
 </map>
