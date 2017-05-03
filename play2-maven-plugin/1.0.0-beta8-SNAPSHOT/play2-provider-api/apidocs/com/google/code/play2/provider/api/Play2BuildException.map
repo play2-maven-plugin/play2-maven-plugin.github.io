@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="c171" href="./SourceGenerationException.html" title="com.google.code.play2.provider.api.SourceGenerationException" alt="" coords="15,209,187,233"/>
+<area shape="rect" id="node1" href="./SourceGenerationException.html" title="&lt;TABLE&gt;" alt="" coords="5,197,197,245"/>
+<area shape="rect" id="c185" href="./Play2BuildFailure.html" title="com.google.code.play2.provider.api.Play2BuildFailure" alt="" coords="151,17,265,41"/>
+<area shape="rect" id="node2" href="./Play2BuildFailure.html" title="&lt;TABLE&gt;" alt="" coords="140,5,276,53"/>
+<area shape="rect" id="c186" href="./Play2BuildException.html" title="com.google.code.play2.provider.api.Play2BuildException" alt="" coords="143,113,273,137"/>
+<area shape="rect" id="node3" href="./Play2BuildException.html" title="&lt;TABLE&gt;" alt="" coords="133,101,283,149"/>
+<area shape="rect" id="c192" href="./AssetCompilationException.html" title="com.google.code.play2.provider.api.AssetCompilationException" alt="" coords="231,209,401,233"/>
+<area shape="rect" id="node4" href="./AssetCompilationException.html" title="&lt;TABLE&gt;" alt="" coords="221,197,411,245"/>
+</map>
