@@ -10,17 +10,17 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.provider.play26.Play26TemplateCompiler
-	c475 [label=<<table title="com.google.code.play2.provider.play26.Play26TemplateCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play26TemplateCompiler.html">
+	c474 [label=<<table title="com.google.code.play2.provider.play26.Play26TemplateCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play26TemplateCompiler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play26TemplateCompiler </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play26TemplateCompiler.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.provider.play26.Play26TemplateCompiler implements com.google.code.play2.provider.api.Play2TemplateCompiler
-	c496:p -> c475:p [dir=back,arrowtail=empty,style=dashed];
+	c495:p -> c474:p [dir=back,arrowtail=empty,style=dashed];
 	// com.google.code.play2.provider.play26.Play26TemplateCompiler DEPEND scala.collection.Seq<A>
-	c475:p -> c503:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c474:p -> c502:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// scala.collection.Seq<A>
-	c503 [label=<<table title="scala.collection.Seq" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c502 [label=<<table title="scala.collection.Seq" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Seq&lt;A&gt; </td></tr>
@@ -28,7 +28,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.Play2TemplateCompiler
-	c496 [label=<<table title="com.google.code.play2.provider.api.Play2TemplateCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c495 [label=<<table title="com.google.code.play2.provider.api.Play2TemplateCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2TemplateCompiler </td></tr>

@@ -10,31 +10,31 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.provider.play26.Play26Provider
-	c401 [label=<<table title="com.google.code.play2.provider.play26.Play26Provider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play26Provider.html">
+	c400 [label=<<table title="com.google.code.play2.provider.play26.Play26Provider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play26Provider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play26Provider </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play26Provider.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.provider.play26.Play26Provider implements com.google.code.play2.provider.api.Play2Provider
-	c419:p -> c401:p [dir=back,arrowtail=empty,style=dashed];
-	// com.google.code.play2.provider.play26.Play26Provider DEPEND com.google.code.play2.provider.api.Play2LessCompiler
-	c401:p -> c420:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.provider.play26.Play26Provider DEPEND com.google.code.play2.provider.api.Play2TemplateCompiler
-	c401:p -> c421:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.provider.play26.Play26Provider DEPEND com.google.code.play2.provider.api.Play2EbeanEnhancer
-	c401:p -> c422:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.provider.play26.Play26Provider DEPEND com.google.code.play2.provider.api.Play2Runner
-	c401:p -> c423:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.provider.play26.Play26Provider DEPEND com.google.code.play2.provider.api.Play2JavaEnhancer
-	c401:p -> c424:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c418:p -> c400:p [dir=back,arrowtail=empty,style=dashed];
 	// com.google.code.play2.provider.play26.Play26Provider DEPEND com.google.code.play2.provider.api.Play2RoutesCompiler
-	c401:p -> c425:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c400:p -> c419:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.provider.play26.Play26Provider DEPEND com.google.code.play2.provider.api.Play2CoffeescriptCompiler
-	c401:p -> c426:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c400:p -> c420:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.provider.play26.Play26Provider DEPEND com.google.code.play2.provider.api.Play2Runner
+	c400:p -> c421:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.provider.play26.Play26Provider DEPEND com.google.code.play2.provider.api.Play2LessCompiler
+	c400:p -> c422:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.provider.play26.Play26Provider DEPEND com.google.code.play2.provider.api.Play2JavascriptCompiler
-	c401:p -> c427:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c400:p -> c423:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.provider.play26.Play26Provider DEPEND com.google.code.play2.provider.api.Play2TemplateCompiler
+	c400:p -> c424:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.provider.play26.Play26Provider DEPEND com.google.code.play2.provider.api.Play2JavaEnhancer
+	c400:p -> c425:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.provider.play26.Play26Provider DEPEND com.google.code.play2.provider.api.Play2EbeanEnhancer
+	c400:p -> c426:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.provider.api.Play2Provider
-	c419 [label=<<table title="com.google.code.play2.provider.api.Play2Provider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c418 [label=<<table title="com.google.code.play2.provider.api.Play2Provider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2Provider </td></tr>
@@ -42,7 +42,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.Play2RoutesCompiler
-	c425 [label=<<table title="com.google.code.play2.provider.api.Play2RoutesCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c419 [label=<<table title="com.google.code.play2.provider.api.Play2RoutesCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2RoutesCompiler </td></tr>
@@ -50,7 +50,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.Play2LessCompiler
-	c420 [label=<<table title="com.google.code.play2.provider.api.Play2LessCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c422 [label=<<table title="com.google.code.play2.provider.api.Play2LessCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2LessCompiler </td></tr>
@@ -58,7 +58,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.Play2CoffeescriptCompiler
-	c426 [label=<<table title="com.google.code.play2.provider.api.Play2CoffeescriptCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c420 [label=<<table title="com.google.code.play2.provider.api.Play2CoffeescriptCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2CoffeescriptCompiler </td></tr>
@@ -66,7 +66,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.Play2JavaEnhancer
-	c424 [label=<<table title="com.google.code.play2.provider.api.Play2JavaEnhancer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c425 [label=<<table title="com.google.code.play2.provider.api.Play2JavaEnhancer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2JavaEnhancer </td></tr>
@@ -74,7 +74,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.Play2TemplateCompiler
-	c421 [label=<<table title="com.google.code.play2.provider.api.Play2TemplateCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c424 [label=<<table title="com.google.code.play2.provider.api.Play2TemplateCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2TemplateCompiler </td></tr>
@@ -82,7 +82,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.Play2EbeanEnhancer
-	c422 [label=<<table title="com.google.code.play2.provider.api.Play2EbeanEnhancer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c426 [label=<<table title="com.google.code.play2.provider.api.Play2EbeanEnhancer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2EbeanEnhancer </td></tr>
@@ -90,7 +90,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.Play2JavascriptCompiler
-	c427 [label=<<table title="com.google.code.play2.provider.api.Play2JavascriptCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c423 [label=<<table title="com.google.code.play2.provider.api.Play2JavascriptCompiler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2JavascriptCompiler </td></tr>
@@ -98,7 +98,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.Play2Runner
-	c423 [label=<<table title="com.google.code.play2.provider.api.Play2Runner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c421 [label=<<table title="com.google.code.play2.provider.api.Play2Runner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2Runner </td></tr>
