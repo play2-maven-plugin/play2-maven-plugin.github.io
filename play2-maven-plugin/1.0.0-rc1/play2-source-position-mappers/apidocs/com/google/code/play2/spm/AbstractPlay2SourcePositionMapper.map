@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="c23" href="./AbstractPlay2SourcePositionMapper.html" title="com.google.code.play2.spm.AbstractPlay2SourcePositionMapper" alt="" coords="145,127,364,151"/>
+<area shape="rect" id="node1" href="./AbstractPlay2SourcePositionMapper.html" title="&lt;TABLE&gt;" alt="" coords="135,115,375,163"/>
+<area shape="rect" id="c26" href="./routes/Play2RoutesSourcePositionMapper.html" title="com.google.code.play2.spm.routes.Play2RoutesSourcePositionMapper" alt="" coords="16,217,229,253"/>
+<area shape="rect" id="node2" href="./routes/Play2RoutesSourcePositionMapper.html" title="&lt;TABLE&gt;" alt="" coords="5,211,240,259"/>
+<area shape="rect" id="c30" href="./template/Play2TemplateSourcePositionMapper.html" title="com.google.code.play2.spm.template.Play2TemplateSourcePositionMapper" alt="" coords="274,217,499,253"/>
+<area shape="rect" id="node3" href="./template/Play2TemplateSourcePositionMapper.html" title="&lt;TABLE&gt;" alt="" coords="264,211,509,259"/>
+<area shape="rect" id="c37" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/SourcePositionMapper.html" title="com.google.code.sbt.compiler.api.SourcePositionMapper" alt="" coords="175,11,334,61"/>
+<area shape="rect" id="node4" href="http://sbt-compiler-maven-plugin.github.io/sbt-compiler-maven-plugin/1.0.0/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/SourcePositionMapper.html" title="&lt;TABLE&gt;" alt="" coords="165,5,344,67"/>
+</map>
