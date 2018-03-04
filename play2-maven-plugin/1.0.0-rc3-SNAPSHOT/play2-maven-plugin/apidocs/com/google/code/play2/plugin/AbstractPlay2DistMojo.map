@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./Play2DistMojo.html" title="com.google.code.play2.plugin.Play2DistMojo" alt="" coords="16,209,112,233"/>
+<area shape="rect" id="node1" href="./Play2DistMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,197,123,245"/>
+<area shape="rect" id="node5_1" href="http://play2-maven-plugin.github.io/external-apidocs/org/codehaus/plexus/plexus-archiver/3.4/org/codehaus/plexus/archiver/Archiver.html" title="org.codehaus.plexus.archiver.Archiver" alt="" coords="282,299,422,352"/>
+<area shape="rect" id="node5" href="http://play2-maven-plugin.github.io/external-apidocs/org/codehaus/plexus/plexus-archiver/3.4/org/codehaus/plexus/archiver/Archiver.html" title="&lt;TABLE&gt;" alt="" coords="271,293,433,357"/>
+<area shape="rect" id="node2_2" href="./Play2DistExplodedMojo.html" title="com.google.code.play2.plugin.Play2DistExplodedMojo" alt="" coords="157,209,304,233"/>
+<area shape="rect" id="node2" href="./Play2DistExplodedMojo.html" title="&lt;TABLE&gt;" alt="" coords="147,197,315,245"/>
+<area shape="rect" id="node3_3" href="./AbstractPlay2DistMojo.html" title="com.google.code.play2.plugin.AbstractPlay2DistMojo" alt="" coords="187,113,327,137"/>
+<area shape="rect" id="node3" href="./AbstractPlay2DistMojo.html" title="&lt;TABLE&gt;" alt="" coords="177,101,338,149"/>
+<area shape="rect" id="node4_4" href="./AbstractArchivingMojo.html" title="com.google.code.play2.plugin.AbstractArchivingMojo" alt="" coords="259,17,399,41"/>
+<area shape="rect" id="node4" href="./AbstractArchivingMojo.html" title="&lt;TABLE&gt;" alt="" coords="249,5,410,53"/>
+</map>
