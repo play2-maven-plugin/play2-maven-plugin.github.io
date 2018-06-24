@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./ReloaderApplicationClassLoaderProvider.html" title="com.google.code.play2.provider.play23.run.ReloaderApplicationClassLoaderProvider" alt="" coords="16,129,261,153"/>
-<area shape="rect" id="node1" href="./ReloaderApplicationClassLoaderProvider.html" title="&lt;TABLE&gt;" alt="" coords="5,117,272,165"/>
-<area shape="rect" id="node2_1" href="./Reloader.html" title="com.google.code.play2.provider.play23.run.Reloader" alt="" coords="105,225,173,249"/>
-<area shape="rect" id="node2" href="./Reloader.html" title="&lt;TABLE&gt;" alt="" coords="94,213,183,261"/>
-<area shape="rect" id="node3_2" href="http://java.sun.com/j2se/1.4.2/docs/api/play/core/classloader/ApplicationClassLoaderProvider.html" title="play.core.classloader.ApplicationClassLoaderProvider" alt="" coords="41,11,236,64"/>
-<area shape="rect" id="node3" href="http://java.sun.com/j2se/1.4.2/docs/api/play/core/classloader/ApplicationClassLoaderProvider.html" title="&lt;TABLE&gt;" alt="" coords="31,5,247,69"/>
-</map>

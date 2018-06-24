@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./MavenPlay2BuilderRunnable.html" title="com.google.code.play2.plugin.MavenPlay2BuilderRunnable" alt="" coords="86,17,262,41"/>
-<area shape="rect" id="node1" href="./MavenPlay2BuilderRunnable.html" title="&lt;TABLE&gt;" alt="" coords="75,5,273,53"/>
-<area shape="rect" id="node2_1" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html" title="org.apache.maven.lifecycle.LifecycleExecutor" alt="" coords="16,107,151,160"/>
-<area shape="rect" id="node2" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html" title="&lt;TABLE&gt;" alt="" coords="5,101,161,165"/>
-<area shape="rect" id="node3_2" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/execution/MavenSession.html" title="org.apache.maven.execution.MavenSession" alt="" coords="197,115,335,152"/>
-<area shape="rect" id="node3" href="http://maven.apache.org/ref/3.1.0/maven-core/apidocs/org/apache/maven/execution/MavenSession.html" title="&lt;TABLE&gt;" alt="" coords="186,109,346,157"/>
-</map>

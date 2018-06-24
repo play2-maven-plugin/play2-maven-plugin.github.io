@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TemplateCompilationException.html" title="com.google.code.play2.provider.api.TemplateCompilationException" alt="" coords="16,209,215,234"/>
+<area shape="rect" id="node1" href="./TemplateCompilationException.html" title="&lt;TABLE&gt;" alt="" coords="5,197,225,245"/>
+<area shape="rect" id="node2_1" href="./SourceGenerationException.html" title="com.google.code.play2.provider.api.SourceGenerationException" alt="" coords="143,113,325,138"/>
+<area shape="rect" id="node2" href="./SourceGenerationException.html" title="&lt;TABLE&gt;" alt="" coords="133,101,335,149"/>
+<area shape="rect" id="node3_2" href="./RoutesCompilationException.html" title="com.google.code.play2.provider.api.RoutesCompilationException" alt="" coords="261,209,447,234"/>
+<area shape="rect" id="node3" href="./RoutesCompilationException.html" title="&lt;TABLE&gt;" alt="" coords="250,197,458,245"/>
+<area shape="rect" id="node4_3" href="./Play2BuildException.html" title="com.google.code.play2.provider.api.Play2BuildException" alt="" coords="164,17,304,42"/>
+<area shape="rect" id="node4" href="./Play2BuildException.html" title="&lt;TABLE&gt;" alt="" coords="153,5,315,53"/>
+</map>
