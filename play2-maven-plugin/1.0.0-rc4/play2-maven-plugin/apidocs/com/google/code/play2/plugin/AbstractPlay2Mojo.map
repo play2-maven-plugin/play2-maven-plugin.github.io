@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./AbstractPlay2StopServerMojo.html" title="com.google.code.play2.plugin.AbstractPlay2StopServerMojo" alt="" coords="16,209,208,234"/>
+<area shape="rect" id="node1" href="./AbstractPlay2StopServerMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,197,219,245"/>
+<area shape="rect" id="node2_1" href="./AbstractPlay2SourceGeneratorMojo.html" title="com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo" alt="" coords="253,209,480,234"/>
+<area shape="rect" id="node2" href="./AbstractPlay2SourceGeneratorMojo.html" title="&lt;TABLE&gt;" alt="" coords="243,197,491,245"/>
+<area shape="rect" id="node3_2" href="./AbstractPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractPlay2Mojo" alt="" coords="673,113,801,138"/>
+<area shape="rect" id="node3" href="./AbstractPlay2Mojo.html" title="&lt;TABLE&gt;" alt="" coords="663,101,812,149"/>
+<area shape="rect" id="node4_3" href="./AbstractPlay2EnhanceMojo.html" title="com.google.code.play2.plugin.AbstractPlay2EnhanceMojo" alt="" coords="526,209,706,234"/>
+<area shape="rect" id="node4" href="./AbstractPlay2EnhanceMojo.html" title="&lt;TABLE&gt;" alt="" coords="515,197,717,245"/>
+<area shape="rect" id="node5_4" href="./AbstractPlay2AssetsCompileMojo.html" title="com.google.code.play2.plugin.AbstractPlay2AssetsCompileMojo" alt="" coords="752,209,968,234"/>
+<area shape="rect" id="node5" href="./AbstractPlay2AssetsCompileMojo.html" title="&lt;TABLE&gt;" alt="" coords="741,197,979,245"/>
+<area shape="rect" id="node6_5" href="./AbstractArchivingMojo.html" title="com.google.code.play2.plugin.AbstractArchivingMojo" alt="" coords="1013,209,1163,234"/>
+<area shape="rect" id="node6" href="./AbstractArchivingMojo.html" title="&lt;TABLE&gt;" alt="" coords="1003,197,1173,245"/>
+<area shape="rect" id="node7_6" href="./AbstractAntJavaBasedPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo" alt="" coords="1209,209,1421,234"/>
+<area shape="rect" id="node7" href="./AbstractAntJavaBasedPlay2Mojo.html" title="&lt;TABLE&gt;" alt="" coords="1198,197,1431,245"/>
+<area shape="rect" id="node8" href="null" title="&lt;TABLE&gt;" alt="" coords="679,5,796,53"/>
+</map>
