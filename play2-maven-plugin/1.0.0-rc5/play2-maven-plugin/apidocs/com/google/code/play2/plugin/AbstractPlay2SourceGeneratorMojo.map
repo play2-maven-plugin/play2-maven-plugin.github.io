@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./Play2TemplateCompileMojo.html" title="com.google.code.play2.plugin.Play2TemplateCompileMojo" alt="" coords="16,209,196,234"/>
+<area shape="rect" id="node1" href="./Play2TemplateCompileMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,197,207,245"/>
+<area shape="rect" id="node2_1" href="./Play2RoutesCompileMojo.html" title="com.google.code.play2.plugin.Play2RoutesCompileMojo" alt="" coords="242,209,410,234"/>
+<area shape="rect" id="node2" href="./Play2RoutesCompileMojo.html" title="&lt;TABLE&gt;" alt="" coords="231,197,421,245"/>
+<area shape="rect" id="node3_2" href="./AbstractPlay2SourceGeneratorMojo.html" title="com.google.code.play2.plugin.AbstractPlay2SourceGeneratorMojo" alt="" coords="102,113,329,138"/>
+<area shape="rect" id="node3" href="./AbstractPlay2SourceGeneratorMojo.html" title="&lt;TABLE&gt;" alt="" coords="91,101,339,149"/>
+<area shape="rect" id="node4_3" href="./AbstractPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractPlay2Mojo" alt="" coords="151,17,279,42"/>
+<area shape="rect" id="node4" href="./AbstractPlay2Mojo.html" title="&lt;TABLE&gt;" alt="" coords="141,5,290,53"/>
+</map>
